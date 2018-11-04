@@ -1,0 +1,130 @@
+header{
+   text-align: center
+   background-color:white;
+   width:100%;
+   padding:15px;
+   border-bottom:1px solid black;
+  
+   margin-top:50px;
+   z-index: 9999;
+    text-align: center
+}
+.prom{
+   background-color:white;
+   padding:15px; 
+   margin-top:100px;
+   z-index: 9999;
+    text-align: center;
+}
+body{
+    
+    background-image: url(../images/yinyang.jpg),url(../images/yinyang.jpg);
+     background-position: left, right;
+    background-repeat: repeat-y;
+   
+}
+/* πρόγραμμα */
+caption{
+    background: #f87907;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border: solid orange;
+    color: #333;
+}
+table {
+  background: #ff8040;
+  border-collapse: collapse;
+     text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    border: solid orange;
+    color: #333;
+}
+  th, td {
+    border: 1px solid black;
+    width: 81px;
+    padding: 5px;
+}
+  tbody , tfoot  {
+      text-align: center;
+}
+thead tr{
+    background: #f87907
+}
+tfoot tr{
+    background: #f87907
+}
+tbody tr:nth-child(even){
+    background: #f87907;
+
+}
+/* πρόγραμμα */
+/* navigationbar */
+.nav {
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+     text-align:center;
+     position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index:10;
+}
+.nav li{
+   display:inline-block;
+}
+.active{
+    color:#333 !important;
+    background-color:  #ff8040;
+    
+}
+.nav li a {
+    display: block;
+    color: #ff8040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* navigationbar */
+
+/*footer*/
+footer{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    background: #333;
+   clear: both;
+    position: relative;
+    z-index: 10;
+    
+    margin-top: 0em;
+    
+}
+footer a, .sitemap, footer p{
+    float: left;
+    color: #ff8040;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+footer li{
+    list-style-type: none;
+     text-align: center;
+}
+.map2{
+    padding: 20px;
+}
+.sitemap{
+    font-size: 2em;
+}
+.prom{
+    display: block;
+    margin: auto;
+}
+/*footer*/

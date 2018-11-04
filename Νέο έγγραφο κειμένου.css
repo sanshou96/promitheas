@@ -1,0 +1,66 @@
+.nav{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+     background: #333;
+    flex-flow: row wrap;
+}
+.nav a{
+   float: left;
+    color: #ff8040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.nav li{
+    outline: #ff8040 solid ;
+    outline-width: 2px 2px 2px 2px;
+    border: #ff8040 solid ;
+    border-width: 
+
+    float: left;
+    list-style-type: none;
+   background: #333;
+     text-align: center;
+     border: 20px;
+    border-color: aqua;
+}
+.nav a:focus{
+    color: black;
+    background: #ff8040;
+}
+.nav a:hover {
+    background-color: #ff8040;
+    color: black;
+}
+.nav a:active{
+    background-color: #ddd;
+    color: black;
+}
+----------------------------------------------------------------
+.nav {
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+     text-align:center;
+}
+.nav li{
+   display:inline-block;
+}
+.nav li a {
+    display: block;
+    color: #ff8040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active{
+    color:#333 !important;
+    background-color:  #ff8040;
+    
+}
