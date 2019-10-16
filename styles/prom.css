@@ -1,146 +1,277 @@
-html{ position: relative;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html{ 
+    position: relative;
     min-height: 100%;
+    overflow-y:scroll
 }
+h1 { font-family: "Open Sans"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Open Sans"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Open Sans"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 body {
+    font-family: "Open Sans";
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    color: #404040;
     margin: 0 0 265px;
-    /* bottom = footer height */
-    padding: 10px;
 }
-header{
-   text-align: center
-   background-color:white;
-   width:100%;
-   padding:15px;
-   margin-top:50px;
-   z-index: 9999;
-    text-align: center;
+.inner{
+  margin-left: auto;
+  margin-right: auto;
+  
+  max-width: 1400px;
+    height: 100%;
 }
-.prom{
-   padding:5px; 
-   margin-top:100px;
-   z-index: 9999;
-    text-align: center;
-    width: 100%;
-    max-width: 700px;
-    max-height: 400px;
-    display: block;
-    margin: auto;
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  height:100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-body{
+html{
     
-  /*  background-image: url(../images/back1.jpg)/*,url(../images/yinyang.jpg);
+    background: linear-gradient(rgba(255,80,1,0.9),rgba(255,80,1,0.9)), url(../images/yinyang.png) no-repeat center center fixed; 
     
-    background-repeat: no-repeat;
-   
-    background-attachment:fixed;*/
-   background:  linear-gradient(to bottom, #c0c0c0, #ff6600);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
-.bio{
-    display: block;
-    width: 25%;
-    background: rgb(248, 121, 7,0.7); 
-    margin: auto;
-    line-height: 1.5;
-}
-/* πρόγραμμα */
-caption{
-    background: rgb(248, 121, 7,0.5);
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-    border: solid #ff5500;
-    color: black;
-}
-table {
-  background: rgb(255, 128, 64,0.5);
-  border-collapse: collapse;
-     text-align:center; 
-    margin-left:auto; 
-    margin-right:auto; 
-    border: solid #ff5500;
-    color: black;
-}
-  th, td {
-    border: 1px solid black;
-    width: 81px;
-    padding: 5px;
-}
-  tbody , tfoot  {
-      text-align: center;
-}
-thead tr{
-    background: rgb(248, 121, 7,0.5);
-}
-tfoot tr{
-    background: rgb(248, 121, 7,0.5);
-}
-tbody tr:nth-child(even){
-    background:rgb(248, 121, 7,0.5);
-
-}
-/* πρόγραμμα */
-/* navigationbar */
-.nav {
+nav{
+  display: block;
    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1a1a1a;
-     text-align:center;
-     position: fixed;
-    top: 0px;
-    right: 0;
-    left: 0;
-    z-index:10;
 }
-.nav li{
-   display:inline-block;
+.navwrap {
+    height: 120px;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+ text-align: center;
+ 
+ position: relative;
+ 
+    max-width: 1400px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.navi{
     
+}
+.navwrap .logo {
+   display: inline-block;
+  position: relative;
+  
+}
+
+.navwrap .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+ 
+  
+}
+
+.navwrap .liwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 0 0 10px;
+  
+}
+
+.navwrap .liwrap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between
+}
+
+
+.navwrap .liwrap ul li a {
+  text-decoration: none;
+  color: white;
+  
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 100px;
+}
+
+.navwrap .liwrap ul li a:hover {
+  color: rgb(255,80,1);
+  background-color:white;
 }
 .active{
-    color:#1a1a1a !important;
-    background-color:  #ff8040;
-    
+  color: rgb(255,80,1)!important;
+  background-color:white;
 }
-.nav li a {
+.navwrap .liwrap ul .close {
+  display: none;
+  text-align: right;
+  padding: 10px;
+}
+
+.navwrap .liwrap ul .close span {
+  font-size: 40px;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.navwrap .liwrap .icon-bar {
+  padding: 18px 8px;
+  width: 50px;
+  height: 60px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navwrap .liwrap .icon-bar i {
+  background-color: #ffffff;
+  height: 2px;
+}
+
+@media only screen and (max-width: 1310px) {
+  .navwrap {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    left: 0%;
+  }
+
+  .navwrap .logo {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+   margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .navwrap .liwrap {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+  }
+
+  .navwrap .liwrap ul {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    position: fixed;
+    left: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-transition: left .3s;
+    -o-transition: left .3s;
+    transition: left .3s;
+  }
+
+  .navwrap .liwrap ul li a {
+    padding: 10px;
+    font-size: 16px;
+    height: auto;
+    line-height: normal;
+    color: #555555;
+  }
+
+  .navwrap .liwrap ul .close {
     display: block;
-    color: #ff8040;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-   outline: 2px solid  #ff8040;
+  }
+
+  .navwrap .liwrap .icon-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
+
+  .navwrap .liwrap ._Menus-show {
+    left: 0;
+  }
 }
-.nav a:hover{
-    color:#1a1a1a;
-    background-color:  #ff5500;
-}
-.nav a:active{
-    color:#1a1a1a;
-    background-color: #802b00;
-   
-}
-/* navigationbar */
+
 
 /*footer*/
 footer{
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    background:#1a1a1a;
-     right: 0;
+ position:absolute;
+    right: 0;
     left: 0;
-    width: 100%;
     bottom: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+    overflow: hidden;
+    
+    background:RGB( 46, 47, 47);
     z-index: 10;
-    margin-top: 0em;
-    position: absolute;
+    margin:0;   
 }
+.footerwrap{
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+}
+
 footer a, .sitemap, footer p{
     float: left;
     color: #ff8040;
-    text-align: center;
+    padding-right: 10px;
     text-decoration: none;
     font-size: 17px;
     
@@ -164,6 +295,7 @@ footer a:active{
     text-decoration: underline;
 }
 .finfo{
+    display: inline-block;
     text-align: left;
 }
 /*footer*/
