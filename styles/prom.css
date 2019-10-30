@@ -69,26 +69,24 @@ max-width: 250px;
     height: 100%;
 }
 .parallax {
-  /* The image used */
-  background-image: url("img_parallax.jpg");
-
-  /* Set a specific height */
-  height:100vh; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
+   background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.8)),url(../images/kung.jpg);
+    background-size: auto,cover;
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh; 
+}
+.parallax2 {
+background-image: linear-gradient(rgba(247,247,247,0.8),rgba(247,247,247,0.8)),url(h../images/kung.jpg);
+    background-size: auto,cover;
+    text-align: center;
+    background-attachment: fixed;
 }
 html{
     
-    background: linear-gradient(rgba(255,80,1,0.7),rgba(255,80,1,0.7)), url(../images/kung.jpg) no-repeat center center fixed; 
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+ 
 }
 nav{
   display: block;
