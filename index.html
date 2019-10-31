@@ -16,8 +16,8 @@
 <div class="parallax">
 <body class="back">
     
-    <nav>
-        <div class="navwrap" id="myNavwrap">
+    <nav class="navwrap" id="myNavwrap">
+        
             
                 <div class="logo">
                     <a href="index.html" title="Αρχική σελίδα" target=""> <img class="navimg" src="images/31.png" alt="promitheas nikaias logo" height="120px"></a>
@@ -48,7 +48,7 @@
               
             </ul>
                     </span>
-            </div>
+           
     
         
     </nav>
@@ -77,10 +77,15 @@
            </p>
         </div>
         </div>
-        <div class="ourprogramms">
+        <div class="ourprogramms inner" >
             <h2>Τα προγραμματά μας</h2>
-        </div>
-        </div>
+            <div class="programms">
+           <div class="programm"><h2 class="progtitle">Wushu Kung Fu<br></h2><img src="./images/kung.jpg" alt="Smiley face" ><p>ΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενο</p></div>
+            <div class="programm"><h2 class="progtitle">Sanda </h2><img src="./images/kung.jpg" alt="Smiley face" ><p>ΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενο</p></div>
+            <div class="programm"><h2 class="progtitle">Shuai Jiao<br> </h2><img src="./images/kung.jpg" alt="Smiley face" ><p>ΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενο</p></div>
+            <div class="programm"><h2 class="progtitle">Γενική Γυμναστική</h2><img src="./images/kung.jpg" alt="Smiley face" ><p>ΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενο</p></div>
+            <div class="programm"><h2 class="progtitle">Μπάσκετ</h2><img src="./images/kung.jpg" alt="Smiley face" ><p>ΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενοΚείμενο</p></div>
+              </div>    </div>
     <footer>
         <div class="footerwrap">
         <p>Ωράριο λειτουργίας<br>Δευτέρα-Τετάρτη: 5μμ-10πμ<br>Δευτέρα-Τετάρτη: 5μμ-10πμ 
@@ -113,6 +118,18 @@ navList.classList.remove("_Menus-show");
     document.getElementById("myNavwrap").style.height = "120px";
 }
     
+window.onscroll = function() {myFunction1()};
+
+var header = document.getElementById("myNavwrap");
+var sticky = navwrap.offsetTop;
+
+function myFunction1() {
+  if (window.pageYOffset > 99) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}    
 </script>
 
 </html>

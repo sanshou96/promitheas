@@ -9,14 +9,20 @@ html{
     min-height: 100%;
     overflow-y:scroll
 }
+h2.progtitle{
+padding: 5px;
+}
 h1 { font-family: "Open Sans"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Open Sans"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Open Sans"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+h2{
+   text-align: center;
+}
 body {
     font-family: "Open Sans";
     line-height: 1.6;
     font-size: 16px;
     font-weight: 400;
     color: #404040;
-    margin: 0 0 265px;
+    margin: 0 0 128px;
 }
 .prom{
     display: block;
@@ -61,7 +67,7 @@ max-width: 250px;
     align-self: center;
     margin: auto
 }
-.inner{
+.ourprogramms.inner{
   margin-left: auto;
   margin-right: auto;
   
@@ -75,22 +81,41 @@ max-width: 250px;
     text-align: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    width: 100vw;
+    
     height: 100vh; 
 }
 .parallax2 {
-background-image: linear-gradient(rgba(247,247,247,0.8),rgba(247,247,247,0.8)),url(h../images/kung.jpg);
-    background-size: auto,cover;
-    text-align: center;
+background-image: linear-gradient(rgba(247,247,247,0.8),rgba(247,247,247,0.8)),url(../images/kung.jpg);
+   background-size: auto,cover;
+    
     background-attachment: fixed;
 }
 html{
     
  
 }
+
+img{
+width:  100%
+}
 nav{
   display: block;
    
+}
+.programms{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.programm{
+    padding: 10px;
+border: 3px solid;
+ max-width: 200px;  
+    word-wrap: break-word;
 }
 .navwrap {
     height: 120px;
@@ -274,7 +299,9 @@ padding: 5px;
     left: 0%;
      z-index: 100;
   }
-
+    .parallax{
+    background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.8)),url(../images/kungs.jpg);
+    }
   .navwrap .logo {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -358,7 +385,7 @@ footer{
   background-color: #efefef;
   text-align: center;
     overflow: hidden;
-    background-color: darkgray;
+    background-color: rgb(230, 230, 230);
     /*background:RGB( 46, 47, 47);*/
     z-index: 10;
     margin:0; 
