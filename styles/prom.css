@@ -7,7 +7,8 @@
 html{ 
     position: relative;
     min-height: 100%;
-    overflow-y:scroll
+    overflow-y:scroll;
+    margin: 0;
 }
 h2.progtitle{
 padding: 5px;
@@ -22,7 +23,10 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #404040;
-    margin: 0 0 128px;
+    margin: 0;
+}
+.contentwrap{
+padding-bottom: 138px;
 }
 .prom{
     display: block;
@@ -47,8 +51,8 @@ max-width: 250px;
  align-self: center;
     margin: auto;
       text-decoration: none;
-  
-  color: rgb(255,80,1)!important;
+  text-align: center;
+  color: rgb(255,255,255)!important;
   background-color:black;
   text-transform: uppercase;
   display: block;
@@ -90,17 +94,21 @@ background-image: linear-gradient(rgba(247,247,247,0.8),rgba(247,247,247,0.8)),u
     
     background-attachment: fixed;
 }
-html{
-    
- 
-}
 
-img{
+.programmimg{
 width:  100%
 }
 nav{
   display: block;
-   
+
+}
+.navwrap2.sticky{
+ width: 100%;
+            background-color: #ff5001; 
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+   position: fixed;
+  top: 0;
+    z-index: 999;
 }
 .programms{
     display: flex;
@@ -114,8 +122,11 @@ nav{
 .programm{
     padding: 10px;
 border: 3px solid;
- max-width: 200px;  
+ max-width: 250px;  
     word-wrap: break-word;
+}
+.navwrap2{
+   
 }
 .navwrap {
     height: 120px;
@@ -389,7 +400,7 @@ footer{
     /*background:RGB( 46, 47, 47);*/
     z-index: 10;
     margin:0; 
-    margin-top: 10px;
+  flex-grow: 1;
 }
 .footerwrap{
   display: flex;
