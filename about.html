@@ -16,7 +16,7 @@
 
 <body class="back">
     <div class="inner">
-        <div class="navwrap2 sticky" id="myNavwrap">
+        <div class="navwrap2 abs sticky" id="myNavwrap">
     <nav>
         <div class="navwrap" id="myNavwrap">
                 <div class="logo">
@@ -110,6 +110,7 @@
        
           
       </main>
+              </div>
    <footer>
         <div class="footerwrap">
         <p>Ωράριο λειτουργίας<br>Δευτέρα-Τετάρτη: 5μμ-10πμ<br>Δευτέρα-Τετάρτη: 5μμ-10πμ 
@@ -124,7 +125,7 @@
         
         </div>
     </footer>
-        </div>
+        
   </body>
              <script>
 var navList = document.getElementById("nav-lists");
@@ -139,6 +140,17 @@ function Hide(){
 navList.classList.remove("_Menus-show");
     document.getElementById("myNavwrap").style.height = "120px";
 }
-   
+   window.onscroll = function() {myFunction1()};
+
+var header = document.getElementById("myNavwrap");
+var sticky = navwrap2.offsetTop;
+
+function myFunction1() {
+  if (window.pageYOffset >100) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}   
 </script>
 </html>

@@ -41,6 +41,9 @@ padding-bottom: 138px;
     flex-direction: column;
     align-items: center;
 }
+.inner{
+margin-top: 200px;
+}
 .intro{
 max-width: 250px;
     text-align: center;
@@ -87,6 +90,7 @@ max-width: 250px;
     background-repeat: no-repeat;
     
     height: 100vh; 
+   
 }
 .parallax2 {
 background-image: linear-gradient(rgba(247,247,247,0.8),rgba(247,247,247,0.8)),url(../images/kung.jpg);
@@ -94,7 +98,22 @@ background-image: linear-gradient(rgba(247,247,247,0.8),rgba(247,247,247,0.8)),u
     
     background-attachment: fixed;
 }
-
+.theme{
+    background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.8)),url(../images/kung.jpg);
+    background-size: auto,cover;
+    background-position: 0% 0%;
+}
+.protitle{
+padding: 150px 0 150px 0;
+      text-align: center;
+    margin: auto;
+    display: block;
+      color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px
+}
 .programmimg{
 width:  100%
 }
@@ -102,9 +121,17 @@ nav{
   display: block;
 
 }
+.navwrap2.abs{
+   position: absolute;
+  display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+     background-color: #ff5001; 
+}
 .navwrap2.sticky{
  width: 100%;
-            background-color: #ff5001; 
+           
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
    position: fixed;
   top: 0;
@@ -125,9 +152,7 @@ border: 3px solid;
  max-width: 250px;  
     word-wrap: break-word;
 }
-.navwrap2{
-   
-}
+
 .navwrap {
     height: 120px;
   justify-content: space-around;
@@ -179,6 +204,7 @@ li.dropdown {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 border-radius: 20px;
+    box-shadow: 0 10px 20px #999;
     
 }
 
@@ -242,6 +268,7 @@ border-radius: 20px;
 }
 .navwrap .liwrap ul li{
 padding: 5px;
+ 
 }
 
 .navwrap .liwrap ul li a {
@@ -264,6 +291,7 @@ padding: 5px;
 .active{
   color: rgb(255,80,1)!important;
   background-color:white;
+    
 }
 .navwrap .liwrap ul .close {
   display: none;

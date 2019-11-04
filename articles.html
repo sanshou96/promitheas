@@ -15,7 +15,8 @@
 </head>
 
 <body class="back">
-    <div class="inner">
+    
+        <div class="navwrap2 abs sticky" id="myNavwrap">
     <nav>
         <div class="navwrap" id="myNavwrap">
                 <div class="logo">
@@ -50,6 +51,9 @@
             </div>
         </div>
     </nav>
+            </div>
+            <div class="inner">
+            </div>
    <footer>
         <div class="footerwrap">
         <ul>
@@ -84,6 +88,17 @@ function Hide(){
 navList.classList.remove("_Menus-show");
     document.getElementById("myNavwrap").style.height = "120px";
 }
-    
+    window.onscroll = function() {myFunction1()};
+
+var header = document.getElementById("myNavwrap");
+var sticky = navwrap2.offsetTop;
+
+function myFunction1() {
+  if (window.pageYOffset >100) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}   
 </script>
 </html>
