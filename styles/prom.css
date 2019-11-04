@@ -131,7 +131,7 @@ nav{
 }
 .navwrap2.sticky{
  width: 100%;
-           
+        background-color: #ff5001;    
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
    position: fixed;
   top: 0;
