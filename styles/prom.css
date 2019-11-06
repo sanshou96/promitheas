@@ -42,13 +42,15 @@ padding-bottom: 138px;
     align-items: center;
 }
 .inner{
-margin-top: 200px;
+padding-top: 100px;
+    padding-bottom: 100px;
 }
 .intro{
-max-width: 250px;
-    text-align: center;
-    margin: auto;
-    display: block;
+color: #2b2c28;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-top: 0px;
 }
 .contactus{
  align-self: center;
@@ -98,9 +100,14 @@ background-image: linear-gradient(rgba(247,247,247,0.8),rgba(247,247,247,0.8)),u
     
     background-attachment: fixed;
 }
-.theme{
+.kungfutheme{
     background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.8)),url(../images/kung.jpg);
     background-size: auto,cover;
+    background-position: 0% 0%;
+}
+.gengymtheme{
+ background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.8)),url(../images/gengym1.jpg);
+    background-size: cover;
     background-position: 0% 0%;
 }
 .protitle{
