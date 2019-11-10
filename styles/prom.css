@@ -45,6 +45,10 @@ padding-bottom: 138px;
 padding-top: 100px;
     padding-bottom: 100px;
 }
+.innertop{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
 .intro{
 color: #2b2c28;
     font-size: 64px;
@@ -68,13 +72,15 @@ color: #2b2c28;
   border-radius: 100px;
 }
 .contactus:hover {
-  color: rgb(255,80,1);
+  color: rgb(255,80,1)!important;
   background-color:white;
 }
 .textblock{ 
     max-width: 700px;
     align-self: center;
-    margin: auto
+    margin: auto;
+    display: block;
+    word-wrap: break-word;
 }
 .ourprogramms.inner{
   margin-left: auto;
@@ -333,7 +339,31 @@ padding: 5px;
   background-color: #ffffff;
   height: 2px;
 }
-
+.bio{
+   display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bioimg{
+ height: 380px;
+}
+.biotext{ 
+    max-width: 350px;
+    align-self: center;
+    margin: auto;
+    display: block;
+    word-wrap: break-word;
+    margin: 0 20px 0 0;
+}
+.row{
+display: flex;
+}
 @media only screen and (max-width: 1310px) {
     .prom{
     width: 100%;
