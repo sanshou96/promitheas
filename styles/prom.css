@@ -10,12 +10,25 @@ html{
     overflow-y:scroll;
     margin: 0;
 }
-h2.progtitle{
-padding: 5px;
-}
+
 h1 { font-family: "Open Sans"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Open Sans"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Open Sans"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
-h2{
+.ourprogramms h2{
    text-align: center;
+    padding-bottom: 40px;
+}
+h2{
+text-align: center;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.programms2 h2{
+   margin: auto;
+    
 }
 body {
     font-family: "Open Sans";
@@ -26,7 +39,7 @@ body {
     margin: 0;
 }
 .contentwrap{
-padding-bottom: 138px;
+padding-bottom: 299.81px;
 }
 .prom{
     display: block;
@@ -36,7 +49,7 @@ padding-bottom: 138px;
     padding-top: 2%;
 }
 .innertext{
-    padding-top: 150px;
+    padding-top: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +60,7 @@ padding-top: 100px;
 }
 .innertop{
     padding-top: 200px;
-    padding-bottom: 100px;
+    
 }
 .intro{
 color: #2b2c28;
@@ -57,6 +70,25 @@ color: #2b2c28;
     margin-top: 0px;
 }
 .contactus{
+ align-self: center;
+    margin: auto;
+      text-decoration: none;
+  text-align: center;
+  color: rgb(255,255,255);
+  background-color:black;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 100px;
+}
+.contactus:hover {
+  color: rgb(255,80,1);
+  background-color:white;
+}
+.learnmore{
  align-self: center;
     margin: auto;
       text-decoration: none;
@@ -71,9 +103,28 @@ color: #2b2c28;
   padding: 0 10px;
   border-radius: 100px;
 }
-.contactus:hover {
-  color: rgb(255,80,1)!important;
-  background-color:white;
+.learnmore:hover {
+  background-color:  rgb(255,80,1)!important;
+color:white!important;
+}
+.learnmore2{
+ align-self: center;
+    margin: auto;
+      text-decoration: none;
+  text-align: center;
+  color: rgb(255,255,255)!important;
+  background-color:black;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 100px;
+}
+.learnmore2:hover {
+  background-color:  rgb(255,80,1)!important;
+color:white!important;
 }
 .textblock{ 
     max-width: 700px;
@@ -130,6 +181,26 @@ padding: 150px 0 150px 0;
 .programmimg{
 width:  100%
 }
+.aboutimg{
+    float: left;
+    max-width: 40%;
+    max-height: 400px;
+    padding: 20px;
+    height: auto;
+    align-items: center;
+   
+}
+.aboutwrapper{
+display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+        text-align: left;
+    width: 60%;
+    padding: 30px;
+}
+.abouttext{
+}
 nav{
   display: block;
 
@@ -160,10 +231,33 @@ nav{
     padding-bottom: 30px;
 }
 .programm{
-    padding: 10px;
+   
 border: 3px solid;
  max-width: 250px;  
+padding: 10px;
     word-wrap: break-word;
+    margin-bottom: 30px;
+}
+.programm2{
+   background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+    padding: 10px;
+    word-wrap: break-word;
+    margin-top: 100px;
+    text-align: center;
+    max-width: 1400px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.programms2{
+   
+    flex-wrap: wrap;
+ 
 }
 
 .navwrap {
@@ -346,9 +440,10 @@ padding: 5px;
     align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 100px;
 }
 .bioimg{
  height: 380px;
@@ -475,7 +570,7 @@ footer{
   max-width: 1400px;
 }
 
-footer a, .sitemap, footer p{
+footwrap footer a, .sitemap, footer p{
     float: left;
     color: #ff8040;
     padding-right: 10px;
@@ -483,7 +578,7 @@ footer a, .sitemap, footer p{
     font-size: 17px;
     
 }
-footer li{
+footwrap footer li{
     list-style-type: none;
      text-align: center;
 }
@@ -493,16 +588,56 @@ footer li{
 .sitemap{
     font-size: 1.5em;
 }
-footer a:hover{
+footwrap footer a:hover{
     color:  #ff5500;
     text-decoration: underline;
 }
-footer a:active{
+footwrap footer a:active{
     color:  #802b00;
     text-decoration: underline;
 }
 .finfo{
     display: inline-block;
     text-align: left;
+    width: 33.34%;  
+}
+.finfo {
+   width: 33.43%;
+    text-align: left;
+    line-height: 1.8;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items:center;
+    padding: 0 0 20px 0;
+}
+.finfo h2{
+    color: #ff8040;
+}
+.finfo p{
+margin: 0;
+line-height: 2em;
+}
+.flogo{
+padding: 35px 0;}
+svg{
+max-height: 24px;
+max-width: 24px;
+    margin: 0 5px;
+}
+svg:hover path{
+fill:red!important;
+}
+.socialmedia{
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 500px;
+}
+.copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*footer*/
