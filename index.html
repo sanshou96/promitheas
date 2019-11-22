@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/prom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-    
+    <link rel="stylesheet" href="styles/mediaqueries.css">
     
 </head>
  
@@ -24,7 +24,7 @@
         
             
                 <div class="logo">
-                    <a href="index.html" title="Αρχική σελίδα" target=""> <img class="navimg" src="images/31.png" alt="promitheas nikaias logo" height="120px"></a>
+                    <a href="index.html" title="Αρχική σελίδα" target=""> <img id="navimgid" class="navimg" src="images/31.png" alt="promitheas nikaias logo" height="120px"></a>
                 </div>
                 <span class="nav">
                     <div class="liwrap">
@@ -37,7 +37,7 @@
                    <ul id="nav-lists">
                <li class="close"><span onclick="Hide()">×</span></li>
                <li><a class="active" href="index.html" title="Αρχική σελίδα" target="">Αρχική σελίδα</a></li>
-                <li class="dropdown"><a href="about.html" class="dropbtn" title="Ο σύλλογος μας" target="">Ο Συλλογός μας &#11163;</a><div class="dropdown-content">
+                <li class="dropdown"><a href="about.html" class="dropbtn" title="Ο σύλλογος μας" target="">Ο Συλλογός μας </a><div class="dropdown-content">
       <a href="kungfu.html">WUSHU KUNGFU</a>
       <a href="sanda.html">SANDA(CHINESE KICKBOXING)</a>
       <a href="shuaijiao.html">SHUAI JIAO(CHINESE WRESTLING)</a>
@@ -93,7 +93,7 @@
         </div>
         </div>
     </div>
-    <footer>
+   <footer>
         <div >
             <div class="footerwrap">
             <div class="finfo">
@@ -103,6 +103,9 @@
                 </p>
                 <p>
                     Δευτέρα-Τετάρτη: 5μμ-10πμ 
+                </p>
+                 <p>
+                   Σαββάτο: 5μμ-10πμ 
                 </p>
             </div>
             <div class="flogo">
@@ -114,7 +117,8 @@
             
                 <p><strong>Σταθερό</strong> - 2104902404</p>
             
-           <p> <strong>Κινητό</strong> - 6945267187 </p>
+                <p> <strong>Κινητό</strong> - 6945267187 </p>
+                <p class="email"><strong>E-mail</strong>:<a href="mailto:ermisvpa@gmail.com"> ermisvpa@gmail.com</a></p>
         </div>
         </div>
             <div class="socialmedia">
@@ -141,12 +145,15 @@ function Show() {
   
 navList.classList.add("_Menus-show");
       document.getElementById("myNavwrap1").style.height = "0px";
+    document.getElementById("navimgid").style.marginTop = "120px";
+   
 }
 
 function Hide(){
     
 navList.classList.remove("_Menus-show");
     document.getElementById("myNavwrap1").style.height = "120px";
+    document.getElementById("navimgid").style.marginTop = "0px";
 }
     
 window.onscroll = function() {myFunction1()};
