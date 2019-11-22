@@ -469,6 +469,7 @@ padding: 5px;
 }
 .bioimg{
  height: 380px;
+    padding-right: 30px;
 }
 .biotext{ 
     max-width: 350px;

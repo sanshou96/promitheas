@@ -110,6 +110,34 @@
     .dropdown-content{
     display: none;
     }
+    .programm2{
+    display: block;
+    }
+    .aboutimg{
+    float: none;
+        max-width: 90%
+    }
+    .aboutwrapper{
+        margin-left: auto;
+    margin-right: auto;
+            width: 90%;
+   
+    text-align: justify;
+    }
+    .bioimg{
+    padding-bottom: 30px;
+    }
+    .minfo{
+    display: block;
+    }
+    .mmap{
+    height: 30vh;
+        width: auto;
+        margin-top: 20px;
+    }
+    .innertop{
+    padding-top: 150px;
+    }
 }
 @media only screen and (max-width: 375px){
     .intro{

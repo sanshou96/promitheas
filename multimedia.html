@@ -19,9 +19,9 @@
     <div class="contentwrap innertop">
          <div class="navwrap2 abs sticky" id="myNavwrap">
     <nav>
-        <div class="navwrap" id="myNavwrap">
+        <div class="navwrap" id="myNavwrap1">
                 <div class="logo">
-                    <a href="index.html" title="Αρχική σελίδα" target=""> <img class="navimg" src="images/31.png" alt="promitheas nikaias logo" height="120px"></a>
+                    <a href="index.html" title="Αρχική σελίδα" target=""> <img class="navimg"id="navimgid" src="images/31.png" alt="promitheas nikaias logo" height="120px"></a>
                 </div>
                 <span class="nav">
                     <div class="liwrap">
@@ -157,20 +157,24 @@
 
 
   </body>
-    <script>
+<script>
 var navList = document.getElementById("nav-lists");
 function Show() {
   
 navList.classList.add("_Menus-show");
-      document.getElementById("myNavwrap").style.height = "0px";
+      document.getElementById("myNavwrap1").style.height = "0px";
+    document.getElementById("navimgid").style.marginTop = "120px";
+   
 }
 
 function Hide(){
     
 navList.classList.remove("_Menus-show");
-    document.getElementById("myNavwrap").style.height = "120px";
+    document.getElementById("myNavwrap1").style.height = "120px";
+    document.getElementById("navimgid").style.marginTop = "0px";
 }
-   window.onscroll = function() {myFunction1()};
+    
+window.onscroll = function() {myFunction1()};
 
 var header = document.getElementById("myNavwrap");
 var sticky = navwrap2.offsetTop;

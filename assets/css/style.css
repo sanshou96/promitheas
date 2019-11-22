@@ -95,11 +95,7 @@ table {
 	border-spacing: 0
 }
 
-img,
-video,
-svg {
-	max-width: 100%
-}
+
 
 [data-theme] {
 	background-color: hsl(0, 0%, 100%);
