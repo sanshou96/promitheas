@@ -138,10 +138,21 @@
     .innertop{
     padding-top: 150px;
     }
+    .textblock{
+    width: 90%;
+    }
+    .flogo{
+    padding: 0;
+    }
+    
 }
 @media only screen and (max-width: 375px){
     .intro{
     font-size: 32px;
+    }
+    .parallax {
+ 
+   background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.8)),url(../images/kungsm.jpg);
     }
 }
 @media only screen and (max-width: 320px){
