@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#myNavwrap1').load('/navbar.html');
-  $('#footer').load('/footer.html');
+  $('#myNavwrap1').load('https://sanshou96.github.io/navbar.html ');
+  $('#footer').load('https://sanshou96.github.io/footer.html');
 });
 console.log("hi");
