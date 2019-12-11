@@ -94,6 +94,12 @@
     margin-left: 1px;
 }
 }
+@media only screen and (max-width: 768px) {
+     .albums {
+    max-width: calc(3*240px);
+    
+    }
+}
 @media only screen and (max-width: 425px){
     .footerwrap{
     display: block;
@@ -144,7 +150,10 @@
     .flogo{
     padding: 0;
     }
+    .albums {
+    max-width: 248px;
     
+    }
 }
 @media only screen and (max-width: 375px){
     .intro{
