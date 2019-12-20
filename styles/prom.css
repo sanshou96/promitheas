@@ -263,11 +263,18 @@ nav ul li:hover a::after {
 }
 .programm{
    
-border: 3px solid;
+border: 5px solid;
  max-width: 250px;  
 padding: 10px;
     word-wrap: break-word;
     margin-bottom: 30px;
+}
+.programm:hover,{
+   
+border: 5px solid orange;
+ transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+    transition-property: all;
 }
 .programm2{
    background-color: #ffffff;
@@ -313,8 +320,13 @@ padding: 10px;
 .navi{
     
 }
-.dropdown li a:hover, .dropdown:hover .dropbtn {
-
+.dropdown li a:hover, .dropdown:hover .dropbtn,nav ul li:hover a::after {
+background-color: white;
+    color: #ff5001;  
+  
+    transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+    transition-property: all;
 }
 .dropdown li a, .dropbtn {
   display: inline-block;
@@ -325,7 +337,11 @@ padding: 10px;
     transition-timing-function: ease-in-out;
     transition-property: background-color,color,border-color;
 }
-
+.dropdown:hover .dropdown-content {
+     
+visibility: visible;
+  opacity: 1;
+}
 
 li.dropdown {
   display: inline-block;
@@ -334,7 +350,7 @@ li.dropdown {
 
 .dropdown-content {
     margin-top: 5px;
-  display: none;
+  visibility: hidden;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -342,7 +358,8 @@ li.dropdown {
   z-index: 30;
 border-radius: 20px;
     box-shadow: 0 10px 20px #999;
-    
+    opacity: 0;
+  transition: visibility 0s, opacity 0.2s ease-in-out;
 }
 
 .dropdown-content a {
@@ -364,9 +381,7 @@ text-transform: uppercase;
     color: black;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+
 .navwrap .logo {
    display: inline-block;
   position: relative;
