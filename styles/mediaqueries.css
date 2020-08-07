@@ -1,188 +1,191 @@
+@media only screen and (max-width: 1500px){
+  .inner{
+    display: grid;
+  }
+}
 @media only screen and (max-width: 1310px) {
-   .dropdown:hover .dropdown-content {
-    display: none;
+  .dropdown:hover .dropdown-content {
+   display: none;
 }
-    .prom{
-    width: 100%;
-    }
-  .navwrap {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    left: 0%;
-     z-index: 100;
-  }
-    .parallax{
-    background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.8)),url(../images/kungs.jpg);
-    }
-  .navwrap .logo {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  }
-.dropdown-content a:hover {
-    
-    color: black;
-}
-
-  .navwrap .liwrap {
-    -webkit-box-flex: 0;
-    -ms-flex: 0;
-    flex: 0;
-  }
-
-  .navwrap .liwrap ul {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    position: fixed;
-    left: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.9));
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    -webkit-transition: left .3s;
-    -o-transition: left .3s;
-    transition: left .3s;
-      justify-content: space-around;
-  }
-
-  .navwrap .liwrap ul li a {
-    padding: 10px;
-    font-size: 16px;
-    height: auto;
-    line-height: normal;
-    
-  }
-
-  .navwrap .liwrap ul .close {
-    display: block;
-  }
-
-  .navwrap .liwrap .icon-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-  }
-
-  .navwrap .liwrap ._Menus-show {
-    left: 0;
-  }
-    
-    .dropdown >a::after {
-      border: solid white;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 3px;
-    transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-    content: none;
-        margin-bottom: 3px;
-    margin-left: 1px;
-}
-}
-@media only screen and (max-width: 768px) {
-     .albums {
-    max-width: calc(3*240px);
-    
-    }
-}
-@media only screen and (max-width: 425px){
-    .footerwrap{
-    display: block;
-    }
-    .contentwrap{
-    padding-bottom:  670.63px;
-    }
-    .finfo{
-    width: 100%;
-    }
-     .intro{
-    font-size: 48px;
-    }
-    .dropdown-content{
-    display: none;
-    }
-    .programm2{
-    display: block;
-    }
-    .aboutimg{
-    float: none;
-        max-width: 90%
-    }
-    .aboutwrapper{
-        margin-left: auto;
-    margin-right: auto;
-            width: 90%;
+   .prom{
+   width: 100%;
+   }
    
-    text-align: justify;
-    }
-    .bioimg{
-    padding-bottom: 30px;
-    }
-    .minfo{
-    display: block;
-    }
-    .mmap{
-    height: 30vh;
-        width: auto;
-        margin-top: 20px;
-    }
-    .innertop{
-    padding-top: 150px;
-    }
-    .textblock{
-    width: 90%;
-    }
-    .flogo{
-    padding: 0;
-    }
-    .albums {
-    max-width: 248px;
-    
-    }
+ .navwrap {
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   left: 0%;
+    z-index: 100;
+ }
+   .parallax{
+   background-image: linear-gradient(rgba(255,80,1,0.7),rgba(255,80,1,0.7)),url(../images/kungs.jpg);
+   background-position: 0% 75%;
+   }
+ .navwrap .logo {
+   -webkit-box-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+  margin: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+.dropdown-content a:hover {
+   
+   color: black;
+}
+
+ .navwrap .liwrap {
+   -webkit-box-flex: 0;
+   -ms-flex: 0;
+   flex: 0;
+ }
+
+ .navwrap .liwrap ul {
+   -ms-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   position: fixed;
+   left: 100%;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.9));
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   -webkit-transition: left .3s;
+   -o-transition: left .3s;
+   transition: left .3s;
+     justify-content: space-around;
+ }
+
+ .navwrap .liwrap ul li a {
+   padding: 10px;
+   font-size: 16px;
+   height: auto;
+   line-height: normal;
+   
+ }
+
+ .navwrap .liwrap ul .close {
+   display: block;
+ }
+
+ .navwrap .liwrap .icon-bar {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 90%;
+   transform: translate(-50%, -50%);
+ }
+
+ .navwrap .liwrap ._Menus-show {
+   left: 0;
+ }
+   
+   .dropdown >a::after {
+     border: solid white;
+ border-width: 0 2px 2px 0;
+ display: inline-block;
+ padding: 3px;
+   transform: rotate(45deg);
+ -webkit-transform: rotate(45deg);
+   content: none;
+       margin-bottom: 3px;
+   margin-left: 1px;
+}
+}
+
+@media only screen and (max-width: 600px){
+  
+   .footerwrap{
+   display: block;
+   }
+  
+   .finfo{
+   width: 100%;
+   }
+    .intro{
+   font-size: 48px;
+   }
+   .dropdown-content{
+   display: none;
+   }
+   .programm2{
+   display: block;
+   }
+   .aboutimg{
+   float: none;
+       max-width: 90%
+   }
+   .aboutwrapper{
+       margin-left: auto;
+   margin-right: auto;
+           width: 90%;
+  
+   text-align: justify;
+   }
+   .bioimg{
+   padding-bottom: 30px;
+   }
+   .minfo{
+   display: block;
+   }
+   .mmap{
+   height: 30vh;
+       width: auto;
+       margin-top: 20px;
+   }
+   .innertop{
+   padding-top: 150px;
+   }
+   
+   .flogo{
+   padding: 0;
+   }
+   .albums {
+   max-width: 248px;
+   
+   }
+}@media only screen and (max-width: 500px){
+  .sil{
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 375px){
-    .intro{
-    font-size: 32px;
-    }
-    .parallax {
- 
-   background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.8)),url(../images/kungsm.jpg);
-    }
+   .intro{
+   font-size: 32px;
+   }
+   .parallax {
+
+  background-image: linear-gradient(rgba(255,80,1,0.8),rgba(255,80,1,0.8)),url(../images/kungsm.jpg);
+   }
 }
 @media only screen and (max-width: 320px){
-    img.navimg{
-    width: 250px;
-    }
-    
+   img.navimg{
+   width: 250px;
+   }
+   
 }
 @media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+ .column {
+   -ms-flex: 50%;
+   flex: 50%;
+   max-width: 50%;
+ }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+ .column {
+   -ms-flex: 100%;
+   flex: 100%;
+   max-width: 100%;
+ }
 }
