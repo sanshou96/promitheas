@@ -1,0 +1,632 @@
+# Translation of Themes - Parfum in Greek
+# This file is distributed under the same license as the Themes - Parfum package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-19 09:14:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: el_GR\n"
+"Project-Id-Version: Themes - Parfum\n"
+
+#. Description of the theme
+msgid "Parfum is a Gutenberg ready theme that allows you to configure your site in a few minutes, with a clean, modern and adaptable design on any device. Plus it works with the major page builders such as Elementor, Divi Builder and Beaver Builder and is WooCommerce compatible. Some its features are: top bar (custom text and social menu), header image, custom logo, custom theme color (blue, green, orange, pink or red), right sidebar or left, 3 page templates, main menu inline with logo or below, homepage with full post content or excerpt, excerpt thumbnails rounded or squared, different Google Fonts, two widget areas (beginning and end of posts), footer widget areas, customization panel, fully responsive, custom header, custom background and more. Translation Ready (English and spanish integrated). Check the demo at http://demo.galussothemes.com/parfum/"
+msgstr "Το Parfum είναι ένα θέμα που σας επιτρέπει να διαμορφώσετε τον ιστότοπό σας σε λίγα λεπτά, με καθαρό, σύγχρονο και ευπροσάρμοστο σχεδιασμό σε οποιαδήποτε συσκευή. Επιπλέον, λειτουργεί με τους κύριους κατασκευαστές σελίδων, όπως το Elementor, Divi Builder and Beaver Builder και είναι συμβατό με το WooCommerce. Μερικά από τα χαρακτηριστικά του είναι: Επάνω Μπάρα (προσαρμοσμένο κείμενο και κοινωνικό μενού), εικόνα κεφαλίδας, λογότυπο, προσαρμοσμένο χρώμα θέματος (μπλε, πράσινο, πορτοκαλί, ροζ ή κόκκινο), δεξιά πλευρική στήλη ή αριστερά, 3 πρότυπα σελίδας, κύριο μενού σε ευθυγράμμιση με το λογότυπο ή κάτω από αυτό. Αρχική σελίδα με πλήρες περιεχόμενο άρθρων ή απόσπασματα, μικρογραφίες απόσπασματος στρογγυλεμένες ή τετραγωνισμένες, διαφορετικές γραμματοσειρές Google, δύο περιοχές μικροεφαρμογών (στην αρχή και στο τέλος των άρθρων), περιοχές μικροεφαρμογών στο υποσέλιδο, πλήρως συμβατό με κάθε συσκευή, εικόνα κεφαλίδα, εικόνα φόντου και πολλά άλλα. Έτοιμο για μετάφραση (περιέχονται Αγγλικά και Ισπανικά). Δείτε το demo στο http://demo.galussothemes.com/parfum/"
+
+#. Theme Name of the theme
+msgid "Parfum"
+msgstr "Parfum"
+
+#. Template Name of the theme
+msgid "GT Page builder (No footer)"
+msgstr "GT Page builder (χωρίς υποσέλιδο)"
+
+#. Template Name of the theme
+msgid "GT Page builder (Theme header, Theme footer)"
+msgstr "GT Page builder (Επικεφαλίδα θέματος, Υποσέλιδο θέματος)"
+
+#: author.php:18
+msgid "Author Archives: %s"
+msgstr "Αρχείο συντάκτη %s"
+
+#: search.php:34
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Η αναζήτησή σας δεν απέδωσε αποτελέσματα.  Αν θέλετε, δοκιμάστε με διαφορετικούς όρους."
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Αποτελέσματα αναζήτησης για: %s"
+
+#: template-parts/top-bar.php:40
+msgid "Social Menu"
+msgstr "Κοινωνικό μενού"
+
+#: template-parts/menu-movil.php:14 template-parts/searchform-toggle.php:3
+msgid "Search..."
+msgstr "Αναζήτηση ..."
+
+#: template-parts/menu-movil.php:13 template-parts/menu-movil.php:15
+#: template-parts/searchform-toggle.php:2
+#: template-parts/searchform-toggle.php:4
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: author.php:36 template-parts/author-info-box.php:18
+msgid "About %s"
+msgstr "Σχετικά με %s"
+
+#: template-parts/content-archive.php:61 template-parts/content.php:65
+#: template-parts/content-single.php:59
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Συνέχεια <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:719
+msgid "<strong>Parfum Notice:</strong> In order for images to be displayed correctly in widgets, featured images must have a minimum size of 576x432 pixels."
+msgstr "<strong>Ειδοποίηση θέματος:</strong> Προκειμένου οι εικόνες να εμφανίζονται σωστά σε μικροεφαρμογές, οι επιλεγμένες εικόνες πρέπει να έχουν ελάχιστο μέγεθος 576x432 pixels."
+
+#: functions.php:672
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+#: functions.php:516
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: functions.php:504
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιο σου περιμένει έλεγχο."
+
+#. translators: 1: date, 2: time
+#: functions.php:498
+msgid "%1$s at %2$s"
+msgstr "%1$s στις %2$s"
+
+#: functions.php:492
+msgid "Post author"
+msgstr "Συντάκτης άρθρου"
+
+#: functions.php:477
+msgid "(Edit)"
+msgstr "(Eπεξεργασία)"
+
+#: functions.php:477
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:450
+msgid "Next &raquo;"
+msgstr "Επόμενη &raquo;"
+
+#: functions.php:449
+msgid "&laquo; Previous"
+msgstr "&laquo; Προηγούμενη"
+
+#: functions.php:426
+msgid "Footer 4"
+msgstr "Υποσέλιδο 4"
+
+#: functions.php:416
+msgid "Footer 3"
+msgstr "Υποσέλιδο 3"
+
+#: functions.php:406
+msgid "Footer 2"
+msgstr "Υποσέλιδο 2"
+
+#: functions.php:397 functions.php:407 functions.php:417 functions.php:427
+msgid "Appears in footer"
+msgstr "Εμφανίζεται στο υποσέλιδο"
+
+#: functions.php:396
+msgid "Footer 1"
+msgstr "Υποσέλιδο 1"
+
+#: functions.php:387
+msgid "Appears at the end of content on posts and pages with default template."
+msgstr "Εμφανίζεται στο τέλος του περιεχομένου σε άρθρα και σελίδες με προεπιλεγμένο πρότυπο."
+
+#: functions.php:386
+msgid "After the post content"
+msgstr "Μετά το περιεχόμενο του άρθρου"
+
+#: functions.php:377
+msgid "Appears below title on posts and pages with default template."
+msgstr "Εμφανίζεται κάτω από τον τίτλο σε άρθρα και σελίδες με προεπιλεγμένο πρότυπο."
+
+#: functions.php:376
+msgid "Before the post content"
+msgstr "Πριν από το περιεχόμενο άρθρου"
+
+#: functions.php:199
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:192
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:136
+msgid "Social Menu (Top bar)"
+msgstr "Μενού κοινωνικής δικτύωσης (επάνω μπάρα)"
+
+#: functions.php:135
+msgid "Primary Menu"
+msgstr "Κύριο μενού"
+
+#: functions.php:123
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:122
+msgid "Huge"
+msgstr "Τεράστιο"
+
+#: functions.php:117
+msgid "L"
+msgstr "L"
+
+#: functions.php:116
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: functions.php:111
+msgid "M"
+msgstr "M"
+
+#: functions.php:110
+msgid "Medium"
+msgstr "Μεσαίο"
+
+#: functions.php:105
+msgid "N"
+msgstr "N"
+
+#: functions.php:104
+msgid "Normal"
+msgstr "Κανονικά"
+
+#: functions.php:99
+msgid "S"
+msgstr "S"
+
+#: functions.php:98
+msgid "Small"
+msgstr "Μικρό"
+
+#: functions.php:89
+msgid "White"
+msgstr "Λευκό"
+
+#: functions.php:84
+msgid "Light gray"
+msgstr "Ανοιχτό Γκρι"
+
+#: functions.php:79
+msgid "Medium gray"
+msgstr "Μεσαίο γκρι"
+
+#: functions.php:74
+msgid "Dark gray"
+msgstr "Σκούρο Γκρι"
+
+#: functions.php:69
+msgid "Theme color"
+msgstr "Χρώμα θέματος"
+
+#: image.php:98 template-parts/content-archive.php:63
+#: template-parts/content-page.php:31 template-parts/content.php:67
+#: template-parts/content-single.php:61
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Επόμενη &rarr;"
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "&larr; Προηγούμενo"
+
+#: functions.php:509 image.php:33 template-parts/content-archive.php:89
+#: template-parts/content-archive-excerpts.php:70
+#: template-parts/content-page.php:46 template-parts/sticky.php:71
+#: template-parts/content.php:93 template-parts/content-single.php:91
+msgid "Edit"
+msgstr "Αλλαγή"
+
+#: image.php:22
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Δημοσιευμένο </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span>στις <a href=\"%3$s\" title=\"Σύνδεσμος προς εικόνα πλήρους μεγέθους\">%4$s &times; %5$s</a> στην <a href=\"%6$s\" title=\"Επιστροφή στο %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: woocommerce/woocommerce-setup.php:70
+msgid "The change of this option is not seen in the customizer, but it will be effective in your website when you save the changes"
+msgstr "Η αλλαγή αυτής της επιλογής δεν εμφανίζεται στον προσαρμογέα, αλλά θα είναι αποτελεσματική στον ιστότοπό σας όταν αποθηκεύεσετε τις αλλαγές"
+
+#: woocommerce/woocommerce-setup.php:68
+msgid "Remove WooCommerce sidebar"
+msgstr "Κατάργηση πλευρικής στήλης WooCommerce"
+
+#: functions.php:367 woocommerce/woocommerce-setup.php:43
+msgid "Appears on posts and pages except Full-width Page Template"
+msgstr "Εμφανίζεται σε άρθρα και σελίδες εκτός από το πρότυπο σελίδας Πλήρους πλάτους"
+
+#: woocommerce/woocommerce-setup.php:42
+msgid "WooCommerce Sidebar"
+msgstr "Πλευρική στήλη WooCommerce"
+
+#. Template Name of the theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "Πρότυπο σελίδας πλήρους πλάτους, χωρίς πλευρική στήλη"
+
+#. Template Name of the theme
+msgid "No sidebar, content width"
+msgstr "Χωρίς πλαϊνή γραμμή, πλάτος περιεχομένου"
+
+#: template-parts/content-none.php:16 index.php:55
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "Δεν βρέθηκε κανένα αποτέλεσμα. Ίσως η αναζήτηση αποδώσει κάτι σχετικό."
+
+#: template-parts/content-none.php:12 search.php:30 index.php:51
+msgid "Nothing Found"
+msgstr "Δε βρέθηκε τίποτα"
+
+#: index.php:43
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Έτοιμοι να δημοσιεύσετε το πρώτο σας άρθρο; <a href=\"%s\">Ξεκινήστε εδώ</a>."
+
+#: index.php:39
+msgid "No posts to display"
+msgstr "Κανένα αρθρο για προβολή"
+
+#: inc/customizer.php:694
+msgid "&bull; <strong>Use Page Builders</strong><p>To design pages with a Page Builder, use the page template \"GT Page Builder\"</p>"
+msgstr "&bull; <strong> Χρήση Page Builders</strong> <p> Για να σχεδιάσετε σελίδες με ένα Page Builder, χρησιμοποιήστε το πρότυπο σελίδας \"GT Page Builder\" </p>"
+
+#: inc/customizer.php:694
+msgid "&bull; <strong>Images are not displayed correctly</strong><p><strong>In order for images to be displayed correctly, featured images must have a minimum size of 576x432 pixels.</strong>.</p><p>If the image thumbnails are not displayed correctly (because Parfum is not the first theme used) you will need to regenerate the thumbnails with a free plugin as"
+msgstr "&bull; <strong> Οι εικόνες δεν εμφανίζονται σωστά </strong> <p> <strong> Για να εμφανίζονται σωστά οι εικόνες, οι επιλεγμένες εικόνες πρέπει να έχουν ελάχιστο μέγεθος 576x432 pixels. </strong>. </p> <p> Εάν οι μικρογραφίες της εικόνας δεν εμφανίζονται σωστά (επειδή το άρωμα δεν είναι το πρώτο θέμα που χρησιμοποιείται) θα χρειαστεί να αναδημιουργήσετε τις μικρογραφίες με ένα δωρεάν πρόσθετο όπως"
+
+#: inc/customizer.php:682
+msgid "First Steps"
+msgstr "Πρώτα βήματα"
+
+#: inc/customizer.php:666
+msgid "Pro Version"
+msgstr "PRO έκδοση"
+
+#: inc/customizer.php:665
+msgid "Live Demo"
+msgstr "Live Demo"
+
+#: inc/customizer.php:653
+msgid "Rate/Review"
+msgstr "Αξιολογήση/Κριτική"
+
+#: inc/customizer.php:653
+msgid "Please, if you are happy with the theme, say it on wordpress.org and give Parfum a nice review. Thank you"
+msgstr "Παρακαλώ, αν είστε ευχαριστημένοι με το θέμα εμφάνισης, πείτε στο wordpress.org και να δώσω στο Parfum μια καλή κριτική. Ευχαριστούμε"
+
+#: inc/customizer.php:641
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+#: inc/customizer.php:625
+msgid "First Steps and Links"
+msgstr "Πρώτα βήματα και σύνδεσμοι"
+
+#: inc/customizer.php:616
+msgid "Hide credits"
+msgstr "Απόκρυψη ευχαριστιών Υποσέλιδου"
+
+#: inc/customizer.php:605
+msgid "Footer text 3"
+msgstr "Κείμενο υποσέλιδου 3"
+
+#: inc/customizer.php:595
+msgid "Footer text 2"
+msgstr "Κείμενο υποσέλιδου 2"
+
+#: inc/customizer.php:585
+msgid "Footer text 1"
+msgstr "Κείμενο υποσέλιδου 1"
+
+#: inc/customizer.php:577
+msgid "Footer texts"
+msgstr "Κείμενα υποσέλιδου"
+
+#: inc/customizer.php:569
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: inc/customizer.php:557
+msgid "Left"
+msgstr "Aριστερά"
+
+#: inc/customizer.php:556
+msgid "Right"
+msgstr "Δεξιά"
+
+#: inc/customizer.php:551
+msgid "Select sidebar position"
+msgstr "Επιλογή θέσης πλευρικής στήλης"
+
+#: functions.php:366 inc/customizer.php:538
+#: woocommerce/woocommerce-setup.php:58
+msgid "Sidebar"
+msgstr "Πλευρική στήλη"
+
+#: inc/customizer.php:528
+msgid "Display 'Back to top' button"
+msgstr "Εμφάνιση του κουμπιού ' πίσω στην κορυφή '"
+
+#: inc/customizer.php:518
+msgid "Show navigation at the end of posts (links to previous and next posts)"
+msgstr "Εμφάνιση πλοήγησης στο τέλος των άρθρων (συνδέσεις με προηγούμενα και επόμενα άρθρα)"
+
+#: inc/customizer.php:507
+msgid "Label for Sticky Posts"
+msgstr "Ετικέτα για καρφιτσωμένες αναρτήσεις"
+
+#: template-parts/sticky.php:16 template-parts/sticky.php:40
+#: inc/customizer.php:503
+msgid "Featured"
+msgstr "Επιλεγμένα"
+
+#: inc/customizer.php:497
+msgid "Related posts title"
+msgstr "Τίτλος σχετικών άρθρων"
+
+#: template-parts/related-posts.php:28 inc/customizer.php:493
+msgid "Related posts..."
+msgstr "Σχετικά άρθρα ..."
+
+#: inc/customizer.php:488
+msgid "Display related posts at the end of entries (based on tags)"
+msgstr "Εμφάνιση σχετικών άρθρων στο τέλος των καταχωρήσεων (με βάση τις ετικέτες)"
+
+#: inc/customizer.php:478
+msgid "Entry text justified"
+msgstr "Πλήρης στοίχιση κειμένου καταχώρησης"
+
+#: inc/customizer.php:468
+msgid "Show metadata in excerpts (Author, date and number of comments)"
+msgstr "Εμφάνιση μεταδεδομένων σε αποσπάσματα (συντάκτης, ημερομηνία και αριθμός σχολίων)"
+
+#: inc/customizer.php:458
+msgid "Excerpt's thumbnail image rounded"
+msgstr "Στρογγυλεμένη εικόνα μικρογραφίας αποσπάσματος"
+
+#: inc/customizer.php:446
+msgid "Before post title"
+msgstr "Πριν από τον τίτλο άρθρου"
+
+#: inc/customizer.php:445
+msgid "After post title"
+msgstr "Μετά τον τίτλο του άρθρου"
+
+#: inc/customizer.php:444
+msgid "Not show"
+msgstr "Να μην εμφανίζεται"
+
+#: inc/customizer.php:439
+msgid "Show featured image in posts"
+msgstr "Εμφάνιση επιλεγμένης εικόνας σε άρθρα"
+
+#: inc/customizer.php:425
+msgid "Show full content on homepage and archive pages."
+msgstr "Εμφάνιση πλήρους περιεχομένου στην αρχική σελίδα και στις σελίδες αρχειοθέτησης."
+
+#: inc/customizer.php:416
+msgid "Posts and Pages"
+msgstr "Άρθρα και Σελίδες"
+
+#: inc/customizer.php:406
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: inc/customizer.php:394
+msgid "Below the logo"
+msgstr "Κάτω από το λογότυπο"
+
+#: inc/customizer.php:393
+msgid "Inline with logo"
+msgstr "Σε ευθυγράμμιση με το λογότυπο"
+
+#: inc/customizer.php:391
+msgid "'below the logo' option displays logo and menu centered"
+msgstr "η επιλογή \"κάτω από το λογότυπο\" εμφανίζει το λογότυπο και το μενού με στοίχιση στο κέντρο"
+
+#: inc/customizer.php:387
+msgid "Menu position"
+msgstr "Θέση μενού"
+
+#: inc/customizer.php:373
+msgid "Main menu"
+msgstr "Κυρίως μενού"
+
+#: inc/customizer.php:363
+msgid "Show the word menu next to the icon menu on mobile devices."
+msgstr "Εμφάνιση του μενού λέξεων δίπλα στο μενού εικονιδίων σε κινητές συσκευές."
+
+#: inc/customizer.php:350
+msgid "Original color"
+msgstr "Αρχικό χρώμα"
+
+#: inc/customizer.php:349
+msgctxt "Social icons color"
+msgid "Gray"
+msgstr "Γκρι"
+
+#: inc/customizer.php:344
+msgid "Social icons color"
+msgstr "Χρώμα κοινωνικών εικονιδίων"
+
+#: inc/customizer.php:331
+msgid "Left top bar custom text (HTML allowed)"
+msgstr "Προσαρμοσμένο κείμενο αριστερά στην επάνω μπάρας (επιτρέπεται HTML)"
+
+#: inc/customizer.php:318
+msgid "Black"
+msgstr "Μαύρο"
+
+#: inc/customizer.php:317
+msgctxt "Top bar color"
+msgid "White"
+msgstr "Λευκό"
+
+#: inc/customizer.php:312
+msgid "Top bar color"
+msgstr "Χρώμα επάνω μπάρας"
+
+#: inc/customizer.php:298
+msgid "Display top bar"
+msgstr "Εμφάνιση επάνω μπάρας"
+
+#: inc/customizer.php:287
+msgid "Top bar"
+msgstr "Μπάρα κορυφής"
+
+#: inc/customizer.php:277
+msgid "Header"
+msgstr "Επικεφαλίδα"
+
+#: inc/customizer.php:255
+msgid "Select font"
+msgstr "Επιλογή γραμματοσειράς"
+
+#: inc/customizer.php:243
+msgid "Fonts"
+msgstr "Γραμματοσειρές"
+
+#: inc/customizer.php:233
+msgid "( Uncheck: Black )"
+msgstr "( Αποεπιλογή: Μαύρο)"
+
+#: inc/customizer.php:231
+msgid "Apply to widget title (border-bottom)"
+msgstr "Εφαρμογή στον τίτλο της μικροεφαρμογής (περίγραμμα-κάτω)"
+
+#: inc/customizer.php:219
+msgid "Apply to entry title in excerpts"
+msgstr "Ισχύει σε τίτλο άρθρου στα αποσπάσματα"
+
+#: inc/customizer.php:206
+msgid "Red"
+msgstr "Κόκκινο"
+
+#: inc/customizer.php:205
+msgid "Pink"
+msgstr "Ροζ"
+
+#: inc/customizer.php:204
+msgid "Orange"
+msgstr "Προρτοκαλί"
+
+#: inc/customizer.php:203
+msgid "Green"
+msgstr "Πράσινο"
+
+#: inc/customizer.php:202
+msgid "Blue"
+msgstr "Μπλε"
+
+#: inc/customizer.php:196
+msgid "Theme Primary Color"
+msgstr "Κύριο  χρώμα θέματος"
+
+#: inc/customizer.php:176
+msgid "The header image is displayed below the logo and menu."
+msgstr "Η εικόνα κεφαλίδας εμφανίζεται κάτω από το λογότυπο και το μενού."
+
+#: inc/customizer.php:158
+msgid "Site Logo/Icon/Title/Tagline"
+msgstr "Λογότυπο ιστοτόπου/εικονίδιο/τίτλος/υπότιτλος"
+
+#: inc/customizer.php:142
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "Αναζήτηση ..."
+
+#: searchform.php:13 searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr "Αναζήτηση για:"
+
+#: footer.php:71
+msgid "Semantic Personal Publishing Platform"
+msgstr "Semantic Personal Publishing Platform"
+
+#: footer.php:71
+msgid "http://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:71
+msgid "Powered by"
+msgstr "Υποστηριζόμενο από"
+
+#: footer.php:70
+msgid "by"
+msgstr "από"
+
+#: header.php:89 template-parts/top-bar.php:13
+msgid "MENU"
+msgstr "ΜΕΝΟΥ"
+
+#: header.php:64
+msgid "Skip to content"
+msgstr "Μετάβαση σε περιεχόμενο"
+
+#: 404.php:19
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Φαίνεται ότι δεν βρήκαμε αυτό που ζητούσατε. Αν θέλετε, δοκιμάστε την αναζήτηση."
+
+#: 404.php:15
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Συγγνώμη!"
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "Τα σχόλια δεν επιτρέπονται."
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr "Νεότερα σχόλια &rarr;"
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr "← Παλαιότερα σχόλια"
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr "Πλοήγηση σχολίων"
+
+#: comments.php:25
+msgid "%1$s comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s σχόλιο στο &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s σχόλια στο &ldquo;%2$s&rdquo;"
+
+#. Author URI of the theme
+msgid "https://galussothemes.com"
+msgstr "https://galussothemes.com"
+
+#. Author of the theme
+msgid "GalussoThemes"
+msgstr "GalussoThemes"
+
+#. Theme URI of the theme
+msgid "https://galussothemes.com/wordpress-themes/parfum"
+msgstr "https://galussothemes.com/wordpress-themes/parfum"

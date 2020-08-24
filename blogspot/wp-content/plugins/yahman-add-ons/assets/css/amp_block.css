@@ -1,0 +1,16 @@
+figure[class^="wp-block-"] amp-img {
+  position: relative;
+  width: 100%;
+  height: 300px; }
+  figure[class^="wp-block-"] amp-img img {
+    object-fit: contain; }
+figure[class^="wp-block-"] li {
+  list-style: none; }
+
+.wp-block-cover {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+

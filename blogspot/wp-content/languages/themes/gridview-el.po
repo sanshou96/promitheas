@@ -1,0 +1,1722 @@
+# Translation of Themes - GridView in Greek
+# This file is distributed under the same license as the Themes - GridView package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-17 13:03:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: el_GR\n"
+"Project-Id-Version: Themes - GridView\n"
+
+#. Description of the theme
+msgid "GridView is clean and modern, mobile responsive, Masonry style grid WordPress theme is ideal for elegantly displaying your content. GridView has Customizer options, accessibility improved design, 2 navigation menus, full-width templates for posts/pages, sticky menu and sticky sidebars, 4 columns grid, 5 columns footer, RTL language support, social buttons, scroll-to-top button and more. GridView PRO version comes with color and font options, post formats support, 2 grid types(masonry or CSS grid), 1/2/3/4/5/6/7/8/9/10 columns grid layouts, 10 thumbnail sizes for grids, display Ads between grid posts, boxed or full layout, 10+ layout styles for singular/non-singular pages with width options, 10+ custom page templates, 10+ custom post templates, 3 header styles with width options, 1/2/3/4/5 columns footer, grid and list style featured posts widgets with many options, width/layout type/layout style/header style/footer style options for every post/page, settings panel for each post/page, unique header images for each post/page, news ticker, built-in post likes and post views, built-in infinite scroll and load more button, about and social widget, tabbed widget, banner widget, more widget areas, 25+ share buttons, related posts for full posts/post summaries and many more useful features. Free version demo: https://demo.themesdna.com/gridview/"
+msgstr "Το GridView είναι καθαρό και σύγχρονο, συμβατό με κινητές συσκευές, WordPress θέμα εμφάνισης με Masonry style grid. Είναι ιδανικό για κομψή εμφάνιση του περιεχομένου σας. Το GridView έχει Επιλογές στο προσαρμογές, σχεδίαση σύμφωνη με accessibility, 2 μενού πλοήγησης, πλήρους πλάτους πρότυπα για άρθρα / σελίδες, σταθερό μενού και σταθερές πλευρικές στήλες, 4στηλο πλέγμα άρθρων, 5 στήλες μικροεφαρμογών στο υποσέλιδο, RTL υποστήριξη γλώσσας, κουμπιά κοινωνικών δικτύων, κουμπί κύλισης προς τα πάνω και πολλά άλλα. Η GridView PRO έκδοση έρχεται με επιλογές χρώματος και γραμματοσειράς, υποστήριξη μορφών άρθρων, 2 τύπους πλέγματος (Masonry ή CSS πλέγμα), διατάξεις πλέγματος με 1/2/3/4/5/6/7/8/9/10 στήλες , 10 μεγέθη μικρογραφιών για πλέγματα, εμφάνιση διαφημίσεων ανάμεσα στα άρθρα του πλέγματος, και διάταξη πλαισίου ή πλήρης, 10 + στυλ διάταξης για μεμονωμένες και μη μοναδικές σελίδες με επιλογές πλάτους, 10+ προσαρμοσμένα πρότυπα σελίδων, 10+ προσαρμοσμένα πρότυπα άρθρων, 3 στυλ κεφαλίδας με επιλογές πλάτους, υποσέλιδο 1/2/3/4/5 στήλων , μικροεφαρμογές για επιλεγμένα άρθρα σε πλέγμα ή λίστα με πολλές επιλογές, πλάτος / διάταξη τύπου / στυλ διάταξης / στυλ κεφαλίδας / υποσέλιδο επιλογές στυλ για κάθε άρθρο / σελίδα, ρυθμίσεις πάνελ για κάθε άρθρο / σελίδα, μοναδικές εικόνες κεφαλίδας για κάθε άρθρο / σελίδα, news ticker, ενσωματωμένα likes και θεάσεις άρθρου, ενσωματωμένο infinite scroll and load more κουμπί, μκροεφαργογή about και social, με καρτέλες, με banner, περισσότερες περιοχές μικροεφαρμγών, 25 + κουμπιά share, σχετικά άρθρα στην εμφάνιση πλήρους άρθρου /αποσπασμάτων και πολλά άλλα χρήσιμα χαρακτηριστικά. Δωρεάν επίδειξη έκδοσης: https://demo.themesdna.com/gridview/"
+
+#. Theme Name of the theme
+msgid "GridView"
+msgstr "GridView"
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:19
+msgid "Widget Display Conditions plugin helps you to control on which website page you want a particular widget to be displayed."
+msgstr "Το πρόσθετο Widget Display Conditions σας βοηθά να ελέγξετε σε ποια ιστοσελίδα που θέλετε να εμφανίζεται μια συγκεκριμένη μικροεφαρμογή."
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:18
+msgid "Widget Display Conditions"
+msgstr "Widget Display Conditions"
+
+#: inc/admin/options/upgrade-to-pro.php:38
+msgid "Ability to Change Website Width/Layout Type/Layout Style/Header Style/Footer Style of any Post/Page"
+msgstr "Δυνατότητα αλλαγής του πλάτους του ιστοτόπου/του τύπου διάταξης/του ύφους διάταξης/του ύφους κεφαλίδας/του ύφους υποσέλιδων οποιουσδήποτε άρθρου/σελίδας"
+
+#: inc/functions/widgets-init.php:72
+msgid "This widget area is located at the bottom of the main content of your website. Widgets of this widget area are displayed on the default homepage of your website (when you are showing your latest posts on homepage)."
+msgstr "Αυτή η περιοχή μικροεφαρμογών βρίσκεται στο κάτω μέρος του κύριου περιεχομένου του ιστοτόπου σας. Οι μικροεφαρμογές σε αυτήν την περιοχή εμφανίζονται στην προεπιλεγμένη αρχική σελίδα του (όταν δείχνετε τα τελευταία άρθρα σας στην αρχική σελίδα)."
+
+#: inc/functions/widgets-init.php:71
+msgid "Bottom Widgets (Default HomePage)"
+msgstr "Μικροεφαρμογές στο Κάτω τμήμα (Στην Αρχική σελίδα)"
+
+#: inc/functions/widgets-init.php:54
+msgid "This widget area is located at the top of the main content of your website. Widgets of this widget area are displayed on the default homepage of your website (when you are showing your latest posts on homepage)."
+msgstr "Αυτή η περιοχή μικροεφαρμογών βρίσκεται στο πάνω μέρος του κύριου περιεχομένου του ιστοτόπου σας. Οι μικροεφαρμογές σε αυτήν την περιοχή εμφανίζονται στην προεπιλεγμένη αρχική σελίδα του (όταν δείχνετε τα τελευταία άρθρα σας στην αρχική σελίδα)."
+
+#: inc/functions/widgets-init.php:53
+msgid "Top Widgets (Default HomePage)"
+msgstr "Μικροεφαρμογές στο Πάνω τμήμα (Στην Αρχική σελίδα)"
+
+#: inc/functions/widgets-init.php:36
+msgid "This full-width widget area is located after the header of your website. Widgets of this widget area are displayed on the default homepage of your website (when you are showing your latest posts on homepage)."
+msgstr "Αυτή η περιοχή μικροεφαρμογών πλήρους πλάτους βρίσκεται μετά την κεφαλίδα του ιστοτόπου σας. Οι μικροεφαρμογές αυτής της περιοχής εμφανίζονται στην αρχική σελίδα του ιστότόπου σας (όταν έχει επιλεγεί \"Τα πρόσφατα άρθρα\" ως αρχική σελίδα)."
+
+#: inc/functions/widgets-init.php:35
+msgid "Top Full Width Widgets (Default HomePage)"
+msgstr "Μικροεφαρμογές στο Πάνω τμήμα πλήρους πλάτους (Στην Αρχική σελίδα)"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Δεν επιτρέπεται σχολιασμός."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s σχόλιο στο &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s σχόλια στο &ldquo;%2$s&rdquo;"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Μια σκέψη για το &ldquo;%1$s&rdquo;"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:69
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Επεξεργασία <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content-none.php:57
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Φαίνεται ότι δε μπορούμε να βρούμε αυτό που αναζητάτε. Ίσως η αναζήτηση να βοηθήσει."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:34
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Είστε έτοιμοι για να δημοσιεύσετε το πρώτο σας άρθρο; <a href=\"%1$s\">Ξεκινήστε εδώ</a>."
+
+#: template-parts/content-single.php:57 template-parts/content-page.php:54
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:46 template-parts/content-page.php:43
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span> <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Συνέχεια<span class=\"screen-reader-text\"> ανάγνωσης \"%s\"</span> <span class=\"meta-nav\">→</span>"
+
+#: inc/admin/customizer.php:51
+msgid "To change Background Color, need to remove background image first:- go to Appearance : Customize : Header Image"
+msgstr "Για να αλλάξετε το χρώμα φόντου, πρέπει να καταργήσετε πρώτα την εικόνα φόντου:- μεταβείτε στην επιλογή Εμφάνιση : Προσαρμογή : Εικόνα κεφαλίδας"
+
+#: inc/admin/customizer.php:35
+msgid "Theme Options"
+msgstr "Επιλογές θέματος"
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:44
+msgid "Loco Translate plugin provides in-browser editing of WordPress translation files."
+msgstr "Το πρόσθετο Loco Translate παρέχει δυνατότητα επεξεργασίας των αρχείων μετάφρασης του WordPress."
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:43
+msgid "Loco Translate"
+msgstr "Loco Translate"
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:39
+msgid "Widget Context plugin helps you to show or hide widgets on certain sections of your site - front page, posts, pages, archives, search, etc."
+msgstr "Το πρόσθετο Widget Context σας βοηθά να εμφανίσετε ή να αποκρύψετε μικροεφαρμογές σε ορισμένα τμήματα του ιστοτόπου σας - αρχική σελίδα, άρθρα, σελίδες, αρχεία, αναζήτηση, κλπ."
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:38
+msgid "Widget Context"
+msgstr "Widget Context"
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:34
+msgid "Regenerate Thumbnails plugin helps you to regenerate your thumbnails to match with this theme. Install and activate the plugin. From the left hand navigation menu, click Tools &gt; Regen. Thumbnails. On the next screen, click Regenerate All Thumbnails."
+msgstr "Το πρόσθετο \"Regenerate Thumbnails\" σάς βοηθά να αναδημιουργήσετε τις μικρογραφίες σας ώστε να ταιριάζουν με αυτό το θέμα. Εγκαταστήστε και ενεργοποιήστε το πρόσθετο. Από το μενού περιήγησης στα αριστερά, κάντε κλικ στις επιλογές Εργαλεία &gt; Regen. Thumbnail. Στην επόμενη οθόνη, κάντε κλικ στην επιλογή Αναδημιουργία όλων των μικρογραφιών."
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:33
+msgid "Regenerate Thumbnails"
+msgstr "Regenerate Thumbnails"
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:29
+msgid "WP-PageNavi plugin helps to display numbered page navigation of this theme. Just install and activate the plugin."
+msgstr "Το πρόσθετο WP-PageNavi βοηθά στην εμφάνιση αριθμημένης πλοήγησης για σελίδες του θέματος. Απλά εγκαταστήστε και ενεργοποιήστε το."
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:28
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:24
+msgid "Yoast SEO plugin helps you with your search engine optimization. Yoast SEO is the favorite WordPress SEO plugin of millions of users worldwide."
+msgstr "Το πρόσθετο Yoast SEO σας βοηθά με τη βελτιστοποίηση στις μηχανές αναζήτησης. Yoast SEO είναι το αγαπημένο WordPress SEO πρόσθετων εκατομμυρίων χρηστών σε όλο τον κόσμο."
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:23
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: inc/admin/options/getting-started.php:21
+msgid "Contact Us"
+msgstr "Επικοινωνήστε μαζί μας"
+
+#: inc/admin/options/getting-started.php:17
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: inc/admin/options/getting-started.php:13
+msgid "Thanks for your interest in GridView! If you have any questions or run into any trouble, please visit us the following links. We will get you fixed up!"
+msgstr "Ευχαριστούμε για το ενδιαφέρον σας για το GridView! Εάν έχετε οποιεσδήποτε ερωτήσεις ή αντιμετωπίσετε οποιοδήποτε πρόβλημα, παρακαλούμε επισκεφθείτε μας τους παρακάτω συνδέσμους. Θα σας βοηθήσουμε!"
+
+#: inc/admin/options/getting-started.php:13
+msgid "Getting Started"
+msgstr "Ξεκινήστε"
+
+#: inc/admin/options/recommended-plugins.php:14
+#: inc/admin/options/recommended-plugins.php:18
+msgid "Recommended Plugins"
+msgstr "Προτεινόμενα Πρόσθετα"
+
+#: inc/admin/options/upgrade-to-pro.php:69
+msgid "Upgrade To GridView PRO"
+msgstr "Αναβάθμιση σε GridView PRO"
+
+#: inc/admin/options/upgrade-to-pro.php:67
+msgid "More Features..."
+msgstr "Περισσότερες δυνατότητες..."
+
+#: inc/admin/options/upgrade-to-pro.php:66
+msgid "Many Useful Customizer Theme options"
+msgstr "Πολλές χρήσιμες επιλογές προσαρμογής του θέματος"
+
+#: inc/admin/options/upgrade-to-pro.php:65
+msgid "Random Posts Button in Header"
+msgstr "Κουμπί \"Τυχαία άρθρα\" στην κεφαλίδα"
+
+#: inc/admin/options/upgrade-to-pro.php:63
+msgid "Full RTL Language Support"
+msgstr "Πλήρης υποστήριξη γλώσσας RTL"
+
+#: inc/admin/options/upgrade-to-pro.php:62
+msgid "Yoast SEO Breadcrumbs Support"
+msgstr "Υποστήριξη Yoast SEO Breadcrumbs"
+
+#: inc/admin/options/upgrade-to-pro.php:61
+msgid "WooCommerce Compatible"
+msgstr "Συμβατό με WooCommerce"
+
+#: inc/admin/options/upgrade-to-pro.php:60
+msgid "Built-in Contact Form"
+msgstr "Ενσωματωμένη Contact Form"
+
+#: inc/admin/options/upgrade-to-pro.php:59
+msgid "More Widget Areas"
+msgstr "Περισσότερες περιοχές μικροεφαρμογών"
+
+#: inc/admin/options/upgrade-to-pro.php:58
+msgid "Ability to Disable Post Format Views - for faster loading"
+msgstr "Δυνατότητα απενεργοποίησης των τύπων κειμένων - για ταχύτερη φόρτωση"
+
+#: inc/admin/options/upgrade-to-pro.php:57
+msgid "Ability to Disable Google Fonts - for faster loading"
+msgstr "Δυνατότητα απενεργοποίησης των γραμματοσειρών Google - για ταχύτερη φόρτωση"
+
+#: inc/admin/options/upgrade-to-pro.php:56
+msgid "Ability to add Ads under Post Title and under Post Content"
+msgstr "Δυνατότητα προσθήκης διαφημίσεων κάτω από τον τίτλο άρθρου και κάτω από το περιεχομένο του"
+
+#: inc/admin/options/upgrade-to-pro.php:55
+msgid "Post Navigation with Thumbnails"
+msgstr "Post Navigation with Thumbnails"
+
+#: inc/admin/options/upgrade-to-pro.php:54
+msgid "Ability to Enable/Disable Mobile View from Primary and Secondary Menus"
+msgstr "Δυνατότητα ενεργοποίησης/απενεργοποίησης προβολής κινητού για το βασικό και το δευτερεύον μενού"
+
+#: inc/admin/options/upgrade-to-pro.php:39
+msgid "Capability to Add Different Header Images for Each Post/Page with Unique Link, Title and Description"
+msgstr "Δυνατότητα προσθήκης διαφορετικών εικόνων κεφαλίδας για κάθε άρθρο/σελίδα με μοναδικό σύνδεσμο, τίτλο και περιγραφή"
+
+#: inc/admin/options/upgrade-to-pro.php:51
+msgid "Related Posts (Categories/Tags/Author/PostIDs based) with Many Options - For both single posts and post summaries"
+msgstr "Σχετικά άρθρα (Κατηγορίες / Ετικέτες / Συγγραφέας / με βάση PostIds) με πολλές επιλογές - Για μεμονωμένα άρθρα και αποσπάσματα άρθρων"
+
+#: inc/admin/options/upgrade-to-pro.php:50
+msgid "3 Post Share Buttons Styles with Options - 25+ Social Networks are Supported"
+msgstr "3 Post Στυλ κουμπιών κοινής χρήσης με επιλογές - Υποστηρίζονται 25+ κοινωνικά δίκτυα"
+
+#: inc/admin/options/upgrade-to-pro.php:42
+msgid "Tabbed Widget (Recent/Categories/Tags/PostIDs based) - with capability to display posts according to Likes/Views/Comments/Dates/... and there are many options."
+msgstr "Μικροεφαρμογή με Καρτέλες (Πρόσφατες / Κατηγορίες / Ετικέτες / με βάση PostIds ) - με δυνατότητα εμφάνισης άρθρων σύμφωνα με Likes/Προβολές / Σχόλια / Ημερομηνίες /... και υπάρχουν πολλές επιλογές."
+
+#: inc/admin/options/upgrade-to-pro.php:41
+msgid "List Featured Posts Widget (Recent/Categories/Tags/PostIDs based) - with capability to display posts according to Likes/Views/Comments/Dates/... and there are many options"
+msgstr "Μικροεφαρμογή για επιλεγμένα άρθρα (Πρόσφατα / Κατηγορίες / Ετικέτες / με βάση PostIds ) - με δυνατότητα εμφάνισης άρθρων σύμφωνα με Likes/Προβολές / Σχόλια / Ημερομηνίες /... και υπάρχουν πολλές επιλογές"
+
+#: inc/admin/options/upgrade-to-pro.php:44
+msgid "News Ticker (Recent/Categories/Tags/PostIDs based) - It can display posts according to Likes/Views/Comments/Dates/... and there are many options."
+msgstr "News Ticker (Πρόσφατες / Κατηγορίες / Ετικέτες / με βάση PostIds) - Μπορεί να εμφανίσει άρθρα σύμφωνα με likes / Προβολές / Σχόλια / Ημερομηνίες / ... και υπάρχουν πολλές επιλογές."
+
+#: inc/admin/options/upgrade-to-pro.php:27
+msgid "10 Thumbnail Sizes Options for Posts Grids"
+msgstr "10 Επιλογές μεγεθών μικρογραφιών για πλέγματα δημοσιεύσεων"
+
+#: inc/admin/options/upgrade-to-pro.php:49
+msgid "Built-in Infinite Scroll and Load More Button"
+msgstr "Ενσωματωμένο κουμπί Infinite Scroll και Load More"
+
+#: inc/admin/options/upgrade-to-pro.php:48
+msgid "Built-in Posts Likes System"
+msgstr "Built-in Posts Likes System"
+
+#: inc/admin/options/upgrade-to-pro.php:47
+msgid "Built-in Posts Views Counter"
+msgstr "Built-in Posts Views Counter"
+
+#: inc/admin/options/upgrade-to-pro.php:35
+msgid "10+ Custom Post Templates"
+msgstr "10+ Προσαρμοσμένα πρότυπα άρθρων"
+
+#: inc/admin/options/upgrade-to-pro.php:34
+msgid "10+ Custom Page Templates"
+msgstr "10+ Προσαρμοσμένα πρότυπα σελίδας"
+
+#: inc/admin/options/upgrade-to-pro.php:37
+msgid "Footer with Layout Options (1/2/3/4/5 columns)"
+msgstr "Υποσέλιδο με επιλογές διάταξης (1/2/3/4/5 στήλες)"
+
+#: inc/admin/options/upgrade-to-pro.php:36
+msgid "3 Header Layouts with Width options - (Logo + Primary Menu + Social Buttons) / (Logo + Header Banner) / (Full Width Header)"
+msgstr "3 Διατάξεις κεφαλίδας με επιλογές πλάτους - (Λογότυπο + Κύριο μενού + Κοινωνικά κουμπιά) / (Λογότυπο + Banner κεφαλίδας) / (Κεφαλίδα πλήρους πλάτους)"
+
+#: inc/admin/options/upgrade-to-pro.php:32
+msgid "10+ Layout Styles for Non-Singular Pages"
+msgstr "10+ Στυλ διάταξης για  Non-Singular σελίδες"
+
+#: inc/admin/options/upgrade-to-pro.php:31
+msgid "10+ Layout Styles for Posts/Pages"
+msgstr "10+ Στυλ διάταξης για άρθρα/σελίδες"
+
+#: inc/admin/options/upgrade-to-pro.php:30
+msgid "Switch between Boxed or Full Layout Type"
+msgstr "Εναλλαγή μεταξύ τύπου διάταξης σε πλαίσιο ή πλήρους διάταξης"
+
+#: inc/admin/options/upgrade-to-pro.php:33
+msgid "Width Change Options for Full Website/Main Content/Left Sidebar/Right Sidebar"
+msgstr "Επιλογές αλλαγής πλάτους για όλο τον ιστότοπο/κύριο περιεχόμενο/αριστερή πλευρική στήλη/δεξιά στήλη"
+
+#: inc/admin/options/upgrade-to-pro.php:28
+msgid "Switch between Masonry Grid (JavaScript based) and CSS only Grid"
+msgstr "Εναλλαγή μεταξύ Masonry Grid (με βάση JavaScript) και πλέγματος μόνο με CSS"
+
+#: inc/admin/options/upgrade-to-pro.php:26
+msgid "1/2/3/4/5/6/7/8/9/10 Columns Options for Posts Grids"
+msgstr "1/2/3/4/5/6/7/8/9/10 Columns Options for Posts Grids"
+
+#: inc/admin/options/upgrade-to-pro.php:25
+msgid "Post Formats Support (aside, image, video, quote, link, gallery, status, audio, chat)"
+msgstr "Υποστήριξη τύπων κειμένων (aside, image, video, quote, link, gallery, status, audio, chat)"
+
+#: inc/admin/options/upgrade-to-pro.php:24
+msgid "Font Options"
+msgstr "Επιλογές γραμματοσειράς"
+
+#: inc/admin/options/upgrade-to-pro.php:23
+msgid "Color Options"
+msgstr "Επιλογές χρωμάτων"
+
+#: inc/admin/options/upgrade-to-pro.php:21
+msgid "Do you enjoy GridView? Upgrade to GridView Pro now and get:"
+msgstr "Σας αρέσει το GridView; Αναβάθμιση σε GridView Pro τώρα και να πάρετε:"
+
+#: inc/admin/options/upgrade-to-pro.php:18
+msgid "GridView Pro"
+msgstr "GridView Pro"
+
+#: inc/admin/options/upgrade-to-pro.php:13
+msgid "Upgrade to Pro Version"
+msgstr "Αναβάθμιση σε έκδοση Pro"
+
+#: inc/admin/options/posts-grid-options.php:65
+msgid "Hide Read More Buttons from Posts Grid"
+msgstr "Απόκρυψη των κουμπιών Διαβάστε περισσότερα από το Πλέγμα άρθρων"
+
+#: inc/admin/options/posts-grid-options.php:61
+msgid "Hide Post Snippets from Posts Grid"
+msgstr "Απόκρυψη αποσπασμάτων άρθρων από το Πλέγμα άρθρων"
+
+#: inc/admin/options/posts-grid-options.php:57
+msgid "The default image is shown when there is no featured image."
+msgstr "Η προεπιλεγμένη εικόνα εμφανίζεται όταν δεν υπάρχει χαρακτηριστική εικόνα."
+
+#: inc/admin/options/posts-grid-options.php:57
+msgid "Hide Default Image"
+msgstr "Απόκρυψη προεπιλεγμένης εικόνας"
+
+#: inc/admin/options/posts-grid-options.php:53
+msgid "Hide Featured Images from Posts Grid"
+msgstr "Απόκρυψη χαρακτηριστικών Εικόνων από το Πλέγμα άρθρων"
+
+#: inc/admin/options/posts-grid-options.php:49
+msgid "Hide Comment Links from Posts Grid"
+msgstr "Απόκρυψη συνδέσμων σχολίων από το Πλέγμα άρθρων"
+
+#: inc/admin/options/posts-grid-options.php:45
+msgid "Hide Post Categories from Posts Grid"
+msgstr "Απόκρυψη κατηγορίας άρθρων στο Πλέγμα άρθρων"
+
+#: inc/admin/options/posts-grid-options.php:41
+msgid "Hide Post Authors from Posts Grid"
+msgstr "Απόκρυψη συντάκτων από το Πλέγμα άρθρων"
+
+#: inc/admin/options/posts-grid-options.php:37
+msgid "Hide Posted Dates from Posts Grid"
+msgstr "Απόκρυψη ημερομηνιών στο Πλέγμα άρθρων"
+
+#: inc/admin/options/posts-grid-options.php:33
+msgid "Hide Post Titles from Posts Grid"
+msgstr "Απόκρυψη τίτλων άρθρων στο Πλέγμα άρθρων"
+
+#: inc/admin/options/posts-grid-options.php:29
+msgid "Read More Text"
+msgstr "Κείμενο \"Διαβάστε περισσότερα\""
+
+#: inc/admin/options/posts-grid-options.php:25
+msgid "Enter the number of words need to display in the post summary. Default is 20 words."
+msgstr "Εισαγάγετε τον αριθμό των λέξεων που πρέπει να εμφανίζονται στη σύνοψη άρθρου. Η προεπιλογή είναι 20 λέξεις."
+
+#: inc/admin/options/posts-grid-options.php:25
+msgid "Auto Post Summary Length"
+msgstr "Αυτόματο μήκος αποσπάσματος άρθρου"
+
+#: inc/admin/options/posts-grid-options.php:21
+msgid "HomePage Posts Heading"
+msgstr "Επικεφαλίδα άρθρων αρχικής σελίδας"
+
+#: inc/admin/options/posts-grid-options.php:17
+msgid "Hide HomePage Posts Heading"
+msgstr "Απόκρυψη επικεφαλίδας άρθρων αρχικής σελίδας"
+
+#: inc/admin/options/posts-grid-options.php:13
+msgid "Posts Grid Options"
+msgstr "Επιλογές πλέγματος άρθρων"
+
+#: inc/admin/options/social-profiles.php:265
+msgid "RSS Feed URL"
+msgstr "RSS Feed URL"
+
+#: inc/admin/options/social-profiles.php:261
+msgid "Email Address"
+msgstr "Διεύθυνση Ηλεκτρονικού Ταχυδρομείου"
+
+#: inc/admin/options/social-profiles.php:257
+msgid "Skype Username"
+msgstr "Όνομα χρήστη Skype"
+
+#: inc/admin/options/social-profiles.php:253
+msgid "Wikipedia URL"
+msgstr "Wikipedia URL"
+
+#: inc/admin/options/social-profiles.php:249
+msgid "Viadeo URL"
+msgstr "Viadeo URL"
+
+#: inc/admin/options/social-profiles.php:245
+msgid "PayPal URL"
+msgstr "PayPal URL"
+
+#: inc/admin/options/social-profiles.php:241
+msgid "Dropbox URL"
+msgstr "Dropbox URL"
+
+#: inc/admin/options/social-profiles.php:237
+msgid "SlideShare URL"
+msgstr "SlideShare URL"
+
+#: inc/admin/options/social-profiles.php:233
+msgid "Google Play URL"
+msgstr "Google Play URL"
+
+#: inc/admin/options/social-profiles.php:229
+msgid "XING URL"
+msgstr "XING URL"
+
+#: inc/admin/options/social-profiles.php:225
+msgid "Pocket URL"
+msgstr "Pocket URL"
+
+#: inc/admin/options/social-profiles.php:221
+msgid "Houzz URL"
+msgstr "Houzz URL"
+
+#: inc/admin/options/social-profiles.php:217
+msgid "Odnoklassniki URL"
+msgstr "Odnoklassniki URL"
+
+#: inc/admin/options/social-profiles.php:213
+msgid "Goodreads URL"
+msgstr "Goodreads URL"
+
+#: inc/admin/options/social-profiles.php:209
+msgid "Ello URL"
+msgstr "Ello URL"
+
+#: inc/admin/options/social-profiles.php:205
+msgid "500px URL"
+msgstr "500px URL"
+
+#: inc/admin/options/social-profiles.php:201
+msgid "BuySellAds URL"
+msgstr "BuySellAds URL"
+
+#: inc/admin/options/social-profiles.php:197
+msgid "Stack Exchange URL"
+msgstr "Stack Exchange URL"
+
+#: inc/admin/options/social-profiles.php:193
+msgid "Stack Overflow URL"
+msgstr "Stack Overflow URL"
+
+#: inc/admin/options/social-profiles.php:189
+msgid "JSFiddle URL"
+msgstr "JSFiddle URL"
+
+#: inc/admin/options/social-profiles.php:185
+msgid "Codepen URL"
+msgstr "Codepen URL"
+
+#: inc/admin/options/social-profiles.php:181
+msgid "IMDB URL"
+msgstr "IMDB URL"
+
+#: inc/admin/options/social-profiles.php:177
+msgid "DeviantArt URL"
+msgstr "DeviantArt URL"
+
+#: inc/admin/options/social-profiles.php:173
+msgid "Foursquare URL"
+msgstr "Foursquare URL"
+
+#: inc/admin/options/social-profiles.php:169
+msgid "Quora URL"
+msgstr "Quora URL"
+
+#: inc/admin/options/social-profiles.php:165
+msgid "Bandcamp URL"
+msgstr "Bandcamp URL"
+
+#: inc/admin/options/social-profiles.php:161
+msgid "Telegram URL"
+msgstr "Telegram URL"
+
+#: inc/admin/options/social-profiles.php:157
+msgid "Twitch URL"
+msgstr "Twitch URL"
+
+#: inc/admin/options/social-profiles.php:153
+msgid "WordPress URL"
+msgstr "WordPress URL"
+
+#: inc/admin/options/social-profiles.php:149
+msgid "Yelp URL"
+msgstr "Yelp URL"
+
+#: inc/admin/options/social-profiles.php:145
+msgid "Spotify URL"
+msgstr "Spotify URL"
+
+#: inc/admin/options/social-profiles.php:141
+msgid "Snapchat URL"
+msgstr "Snapchat URL"
+
+#: inc/admin/options/social-profiles.php:137
+msgid "Slack URL"
+msgstr "Slack URL"
+
+#: inc/admin/options/social-profiles.php:133
+msgid "Mixcloud URL"
+msgstr "Mixcloud URL"
+
+#: inc/admin/options/social-profiles.php:129
+msgid "Meetup URL"
+msgstr "Meetup URL"
+
+#: inc/admin/options/social-profiles.php:125
+msgid "Amazon URL"
+msgstr "Amazon URL"
+
+#: inc/admin/options/social-profiles.php:121
+msgid "Behance URL"
+msgstr "Behance URL"
+
+#: inc/admin/options/social-profiles.php:117
+msgid "Etsy URL"
+msgstr "Etsy URL"
+
+#: inc/admin/options/social-profiles.php:113
+msgid "Blogger URL"
+msgstr "Blogger URL"
+
+#: inc/admin/options/social-profiles.php:109
+msgid "Flipboard URL"
+msgstr "Flipboard URL"
+
+#: inc/admin/options/social-profiles.php:105
+msgid "Dribbble URL"
+msgstr "Dribbble URL"
+
+#: inc/admin/options/social-profiles.php:101
+msgid "Reddit URL"
+msgstr "Reddit URL"
+
+#: inc/admin/options/social-profiles.php:97
+msgid "Mix URL"
+msgstr "Mix URL"
+
+#: inc/admin/options/social-profiles.php:93
+msgid "Stumbleupon URL"
+msgstr "Stumbleupon URL"
+
+#: inc/admin/options/social-profiles.php:89
+msgid "Delicious URL"
+msgstr "Διεύθυνση URL Delicious"
+
+#: inc/admin/options/social-profiles.php:85
+msgid "Digg URL"
+msgstr "Διεύθυνση URL Digg"
+
+#: inc/admin/options/social-profiles.php:81
+msgid "Tumblr URL"
+msgstr "Tumblr URL"
+
+#: inc/admin/options/social-profiles.php:77
+msgid "Bitbucket URL"
+msgstr "Bitbucket URL"
+
+#: inc/admin/options/social-profiles.php:73
+msgid "Github URL"
+msgstr "Github URL"
+
+#: inc/admin/options/social-profiles.php:69
+msgid "Medium URL"
+msgstr "Medium URL"
+
+#: inc/admin/options/social-profiles.php:65
+msgid "Lastfm URL"
+msgstr "Lastfm URL"
+
+#: inc/admin/options/social-profiles.php:61
+msgid "Messenger URL"
+msgstr "Messenger URL"
+
+#: inc/admin/options/social-profiles.php:57
+msgid "Soundcloud URL"
+msgstr "Soundcloud URL"
+
+#: inc/admin/options/social-profiles.php:53
+msgid "Vimeo URL"
+msgstr "Vimeo URL"
+
+#: inc/admin/options/social-profiles.php:49
+msgid "Youtube URL"
+msgstr "Youtube URL"
+
+#: inc/admin/options/social-profiles.php:45
+msgid "Flickr Link"
+msgstr "Σύνδεσμος Flickr"
+
+#: inc/admin/options/social-profiles.php:41
+msgid "VK Link"
+msgstr "Σύνδεσμος VK"
+
+#: inc/admin/options/social-profiles.php:37
+msgid "Instagram Link"
+msgstr "Σύνδεσμος Instagram"
+
+#: inc/admin/options/social-profiles.php:33
+msgid "Linkedin Link"
+msgstr "Σύνδεσμος Linkedin"
+
+#: inc/admin/options/social-profiles.php:29
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: inc/admin/options/social-profiles.php:25
+msgid "Google Plus URL"
+msgstr "Google Plus URL"
+
+#: inc/admin/options/social-profiles.php:21
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: inc/admin/options/social-profiles.php:17
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: inc/admin/options/social-profiles.php:13
+msgid "Social Links Options"
+msgstr "Επιλογές κοινωνικών συνδέσεων"
+
+#: inc/admin/options/menu-options.php:21
+msgid "Disable Secondary Menu"
+msgstr "Απενεργοποίηση δευτερεύοντος μενού"
+
+#: inc/admin/options/menu-options.php:17
+msgid "Disable Primary Menu"
+msgstr "Απενεργοποίηση βασικού μενού"
+
+#: inc/admin/options/menu-options.php:13
+msgid "Menu Options"
+msgstr "Επιλογές μενού"
+
+#: inc/admin/options/other-options.php:13
+msgid "Other Options"
+msgstr "Άλλες Επιλογές"
+
+#: inc/admin/options/header-options.php:56
+msgid "Show Login/Logout Button in Header"
+msgstr "Εμφάνιση κουμπιού σύνδεσης/αποσύνδεσης στην κεφαλίδα"
+
+#: inc/admin/options/header-options.php:52
+#: inc/admin/options/header-options.php:56
+msgid "This option has no effect if you checked the option: Hide Header Social + Search + Login/Logout Buttons"
+msgstr "Αυτή η επιλογή δεν έχει κανένα αποτέλεσμα αν έχετε επιλέξει: Απόκρυψη από την κεφαλίδα των κουμπιών Social + Αναζήτηση + Σύνδεση / Αποσύνδεση"
+
+#: inc/admin/options/header-options.php:52
+msgid "Hide Header Search Button"
+msgstr "Κουμπί \"Απόκρυψη αναζήτησης κεφαλίδας\""
+
+#: inc/admin/options/header-options.php:48
+msgid "If you checked this option, all buttons will disappear from header. There is no any effect from below 2 options."
+msgstr "Εάν το επιλέξετε, όλα τα κουμπιά θα εξαφανιστούν από την κεφαλίδα. Οι επόμενες 2 επιλογές δεν θα έχουν κανένα νόημα."
+
+#: inc/admin/options/header-options.php:48
+msgid "Hide Header Social + Search + Login/Logout Buttons"
+msgstr "Απόκρυψη από την κεφαλίδα των κουμπιών Social + Αναζήτηση + Σύνδεση / Αποσύνδεση"
+
+#: inc/admin/options/header-options.php:44
+msgid "Hide Description from Header Image"
+msgstr "Απόκρυψη περιγραφής από την εικόνα κεφαλίδας"
+
+#: inc/admin/options/header-options.php:40
+msgid "Hide both Title and Description from Header Image"
+msgstr "Απόκρυψη τίτλου και περιγραφής από την εικόνα κεφαλίδας"
+
+#: inc/admin/options/header-options.php:35
+msgid "Hide Header Image from Everywhere"
+msgstr "Απόκρυψη εικόνας κεφαλίδας από παντού"
+
+#: inc/admin/options/header-options.php:30
+msgid "Hide Header Content"
+msgstr "Απόκρυψη περιεχομένου κεφαλίδας"
+
+#: inc/admin/options/header-options.php:26
+msgid "Enable Sticky Header on Small Screen"
+msgstr "Ενεργοποίηση σταθερής κεφαλίδας σε μικρές οθόνες"
+
+#: inc/admin/options/header-options.php:22
+msgid "Enable Sticky Header"
+msgstr "Ενεργοποίηση σταθερής κεφαλίδας"
+
+#: inc/admin/options/header-options.php:18
+msgid "Hide Tagline"
+msgstr "Απόκρυψη υπότιτλου"
+
+#: inc/admin/options/header-options.php:14
+msgid "Header Options"
+msgstr "Επιλογές Κεφαλίδας"
+
+#: inc/admin/options/search-404-options.php:29
+msgid "Enter a message to display on the 404 error page."
+msgstr "Πληκτρολογήστε ένα μήνυμα για εμφάνιση στη σελίδα σφάλματος 404."
+
+#: inc/admin/options/search-404-options.php:29
+msgid "Error 404 Message"
+msgstr "Μήνυμα σφάλματος 404"
+
+#: inc/admin/options/search-404-options.php:25
+msgid "Enter the heading for the 404 error page."
+msgstr "Εισαγάγετε την επικεφαλίδα για τη σελίδα σφάλματος 404."
+
+#: inc/admin/options/search-404-options.php:25
+msgid "404 Error Page Heading"
+msgstr "Επικεφαλίδα σελίδας σφάλματος 404"
+
+#: inc/admin/options/search-404-options.php:21
+msgid "Enter a message to display when no search results are found."
+msgstr "Εισαγάγετε ένα μήνυμα που θα εμφανίζεται όταν δεν βρεθούν αποτελέσματα αναζήτησης."
+
+#: inc/admin/options/search-404-options.php:21
+msgid "No Search Results Message"
+msgstr "Mήνυμα μη εύρεσης αποτελεσμάτων αναζήτησης"
+
+#: inc/admin/options/search-404-options.php:19
+#: template-parts/content-none.php:50
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Λυπούμαστε, αλλά τίποτα δε ταιριάζει με τους όρους αναζήτησης. Παρακαλούμε προσπαθήστε ξανά με διαφορετικές λέξεις-κλειδιά."
+
+#: inc/admin/options/search-404-options.php:17
+msgid "Enter a heading to display when no search results are found."
+msgstr "Εισαγάγετε μια επικεφαλίδα που θα εμφανίζεται όταν δεν βρεθούν αποτελέσματα αναζήτησης."
+
+#: inc/admin/options/search-404-options.php:17
+msgid "No Search Results Heading"
+msgstr "Επικεφαλίδα μη εύρεσης αποτελεσμάτων αναζήτησης"
+
+#: inc/admin/options/search-404-options.php:15
+#: template-parts/content-none.php:21
+msgid "Nothing Found"
+msgstr "Δεν βρέθηκε τίποτα"
+
+#: inc/admin/options/search-404-options.php:13
+msgid "Search and 404 Pages Options"
+msgstr "Επιλογές αναζήτησης και 404 σελίδων"
+
+#: inc/admin/options/navigation-options.php:25
+msgid "Numbered Navigation"
+msgstr "Αριθμημένη περιήγηση"
+
+#: inc/admin/options/navigation-options.php:25
+msgid "Normal Navigation"
+msgstr "Κανονική πλοήγηση"
+
+#: inc/admin/options/navigation-options.php:25
+msgid "Select posts navigation type you need. If you activate WP-PageNavi plugin, this navigation will be replaced by WP-PageNavi navigation."
+msgstr "Επιλέξτε τον τύπο περιήγησης άρθρων που χρειάζεστε. Εάν ενεργοποιήσετε το πρόσθετο WP-PageNavi, αυτή η πλοήγηση θα αντικατασταθεί από την πλοήγηση WP-PageNavi."
+
+#: inc/admin/options/navigation-options.php:25
+msgid "Posts Navigation Type"
+msgstr "Τύπος περιήγησης άρθρων"
+
+#: inc/admin/options/navigation-options.php:21
+msgid "Hide Posts Navigation from Home/Archive/Search Pages"
+msgstr "Απόκρυψη πλοήγησης στα άρθρα από την αρχική σελίδα / Αρχείο / Σελίδες αναζήτησης"
+
+#: inc/admin/options/navigation-options.php:17
+msgid "Hide Post Navigation from Full Posts"
+msgstr "Απόκρυψη πλοήγησης άρθρου από τα πλήρη άρθρα"
+
+#: inc/admin/options/navigation-options.php:13
+msgid "Post/Posts Navigation Options"
+msgstr "Επιλογές περιήγησης άρθρου/άρθρων"
+
+#: inc/admin/options/footer-options.php:21
+msgid "Hide Footer Widgets"
+msgstr "Απόκρυψη των μικροεφαρμογών υποσέλιδου"
+
+#: inc/admin/options/footer-options.php:17
+msgid "Footer copyright notice"
+msgstr "Κείμενο υποσέλιδου στη θέση του copyright"
+
+#: inc/admin/options/footer-options.php:13
+msgid "Footer Options"
+msgstr "Επιλογές υποσέλιδου"
+
+#: inc/admin/options/singular-page-options.php:49
+msgid "Hide Edit Link from Single Page"
+msgstr "Απόκρυψη συνδέσμου επεξεργασίας σε μεμονωμένη σελίδα"
+
+#: inc/admin/options/singular-page-options.php:45
+msgid "Hide Comment Link from Single Page"
+msgstr "Απόκρυψη σύνδεσμου σχολίων από μεμονωμένη σελίδα"
+
+#: inc/admin/options/singular-page-options.php:41
+msgid "Hide Page Author from Single Page"
+msgstr "Απόκρυψη συντάκτη στις μεμονωμένες σελίδες"
+
+#: inc/admin/options/singular-page-options.php:37
+msgid "Hide Posted Date from Single Page"
+msgstr "Απόκρυψη ημερομηνίας στις μεμονωμένες σελίδες"
+
+#: inc/admin/options/singular-page-options.php:33
+msgid "Remove Link from Single Page Title"
+msgstr "Αφαίρεση συνδέσμου από τον τίτλο στην εμφάνιση μεμονωμένης σελίδας"
+
+#: inc/admin/options/singular-page-options.php:29
+msgid "Hide Page Header from Single Page"
+msgstr "Απόκρυψη συντάκτη στις μεμονωμένες σελίδες"
+
+#: inc/admin/options/singular-page-options.php:25
+msgid "Move Featured Image to Bottom of Page Title"
+msgstr "Μετακίνηση της χαρακτηριστικής εικόνας κάτω από τον τίτλο της σελίδας"
+
+#: inc/admin/options/singular-page-options.php:21
+msgid "Hide Featured Image from Single Page"
+msgstr "Απόκρυψη χαρακτηριστικής εικόνας στις μεμονωμένες σελίδες"
+
+#: inc/admin/options/singular-page-options.php:17
+msgid "Do you want the featured image in a page to be linked to its page?"
+msgstr "Θέλετε η χαρακτηριστική εικόνα σελίδας να έχει σύνδεσμο προς τη σελίδα της;"
+
+#: inc/admin/options/singular-page-options.php:13
+msgid "Page Options"
+msgstr "Επιλογές σελίδας"
+
+#: inc/admin/options/singular-post-options.php:61
+msgid "Hide Author Bio Box"
+msgstr "Απόκρυψη πληροφοριών συγγραφέα"
+
+#: inc/admin/options/singular-post-options.php:57
+msgid "Hide Post Tags from Full Post"
+msgstr "Απόκρυψη ετικετών στο πλήρες άρθρο"
+
+#: inc/admin/options/singular-post-options.php:53
+msgid "Hide Post Edit Link"
+msgstr "Απόκρυψη συνδέσμου επεξεργασίας άρθρου"
+
+#: inc/admin/options/singular-post-options.php:49
+msgid "Hide Comment Link from Full Post"
+msgstr "Απόκρυψη σύνδεσμου σχολίων από το πλήρες άρθρο"
+
+#: inc/admin/options/singular-post-options.php:45
+msgid "Hide Posted Date from Full Post"
+msgstr "Απόκρυψη ημερομηνίας στο πλήρες άρθρο"
+
+#: inc/admin/options/singular-post-options.php:41
+msgid "Hide Post Author from Full Post"
+msgstr "Απόκρυψη συντάκτη από το πλήρες άρθρο"
+
+#: inc/admin/options/singular-post-options.php:37
+msgid "Hide Post Categories from Full Post"
+msgstr "Απόκρυψη κατηγοριών άρθρου από το πλήρες άρθρο"
+
+#: inc/admin/options/singular-post-options.php:33
+msgid "Remove Link from Full Post Title"
+msgstr "Αφαίρεση συνδέσμου από τον τίτλο στην εμφάνιση πλήρους άρθρου"
+
+#: inc/admin/options/singular-post-options.php:29
+msgid "Hide Post Header from Full Post"
+msgstr "Απόκρυψη επικεφαλίδας άρθρο στο πλήρες άρθρο"
+
+#: inc/admin/options/singular-post-options.php:25
+msgid "Move Featured Media to Bottom of Full Post Title"
+msgstr "Μετακίνηση της χαρακτηριστικής εικόνας (πολυμέσου) κάτω από τον τίτλο του άρθρου"
+
+#: inc/admin/options/singular-post-options.php:21
+msgid "Hide Featured Image from Full Post"
+msgstr "Απόκρυψη χαρακτηριστικής εικόνας σε Πλήρη άρθρα"
+
+#: inc/admin/options/singular-post-options.php:17
+#: inc/admin/options/singular-page-options.php:17
+msgid "No"
+msgstr "Όχι"
+
+#: inc/admin/options/singular-post-options.php:17
+#: inc/admin/options/singular-page-options.php:17
+msgid "Yes"
+msgstr "Ναι"
+
+#: inc/admin/options/singular-post-options.php:17
+msgid "Do you want the featured image in a single post to be linked to its post?"
+msgstr "Θέλετε η χαρακτηριστική εικόνα που εμφανίζεται σε μεμονωμένο άρθρο να συνδέεται με το άρθρο;"
+
+#: inc/admin/options/singular-post-options.php:17
+#: inc/admin/options/singular-page-options.php:17
+msgid "Featured Image Link"
+msgstr "Σύνδεσμος χαρακτηριστικής εικόνας"
+
+#: inc/admin/options/singular-post-options.php:13
+msgid "Post Options"
+msgstr "Επιλογές άρθρου"
+
+#. translators: %s: post title.
+#: inc/functions/media-functions.php:16 inc/functions/media-functions.php:22
+#: inc/functions/media-functions.php:55 inc/functions/media-functions.php:57
+#: inc/functions/media-functions.php:60 inc/functions/media-functions.php:111
+#: inc/functions/media-functions.php:113 inc/functions/media-functions.php:116
+msgid "Permanent Link to %s"
+msgstr "Μόνιμος σύνδεσμος στο %s"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/functions/postmeta-functions.php:84
+msgid "Edit<span class=\"screen-reader-text\"> %s</span>"
+msgstr "Επεξεργασία <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: %s: post title
+#: inc/functions/postmeta-functions.php:82
+#: inc/functions/postmeta-functions.php:99
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Αφήστε ένα Σχόλιο<span class=\"screen-reader-text\"> στο %s</span>"
+
+#. translators: used between list items, there is a space
+#: inc/functions/postmeta-functions.php:64
+msgid ", "
+msgstr ", "
+
+#: inc/functions/postmeta-functions.php:51
+msgid "% Comments"
+msgstr "% σχόλια"
+
+#: inc/functions/postmeta-functions.php:51
+msgid "1 Comment"
+msgstr "1 Σχόλιο"
+
+#: inc/functions/postmeta-functions.php:51
+msgid "0 Comment"
+msgstr "0 σχόλια"
+
+#. translators: 1: list of categories.
+#: inc/functions/postmeta-functions.php:35
+#: inc/functions/postmeta-functions.php:67
+msgid "<span class=\"screen-reader-text\">Posted in </span>%1$s"
+msgstr "<span class=\"screen-reader-text\">Δημοσιεύτηκε στις</span> %1$s"
+
+#. translators: used between list items, there is a space
+#: inc/functions/postmeta-functions.php:32
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. translators: 1: list of tags.
+#: inc/functions/postmeta-functions.php:21
+msgid "Tagged %1$s"
+msgstr "Με ετικέτα: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/functions/postmeta-functions.php:18
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#: inc/functions/post-author-box-functions.php:22
+msgid "Author: "
+msgstr "Συντάκτης: "
+
+#: inc/functions/other-functions.php:22
+#: inc/admin/options/posts-grid-options.php:27
+msgid "read more"
+msgstr "διαβάστε περισσότερα"
+
+#: inc/functions/enqueue-scripts.php:76
+msgid "abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video"
+msgstr "abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video"
+
+#: inc/functions/widgets-init.php:144
+msgid "This widget area is located on the bottom of the footer of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών βρίσκεται στο κάτω μέρος του υποσέλιδου του ιστοτόπου σας."
+
+#: inc/functions/widgets-init.php:143
+msgid "Footer Bottom Widgets"
+msgstr "Μικροεφαρμογές υποσέλιδου"
+
+#: inc/functions/widgets-init.php:135
+msgid "This widget area is the column 5 of the footer of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών είναι η 5η στήλη του υποσέλιδου του ιστοτόπου σας."
+
+#: inc/functions/widgets-init.php:134
+msgid "Footer 5 Widgets"
+msgstr "Μονάδες 5ου Υποσέλιδου"
+
+#: inc/functions/widgets-init.php:126
+msgid "This widget area is the column 4 of the footer of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών είναι η 4η στήλη του υποσέλιδου του ιστοτόπου σας."
+
+#: inc/functions/widgets-init.php:125
+msgid "Footer 4 Widgets"
+msgstr "Μικροεφαρμογές 4ου υποσέλιδου"
+
+#: inc/functions/widgets-init.php:117
+msgid "This widget area is the column 3 of the footer of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών είναι η 2η στήλη του υποσέλιδου του ιστοτόπου σας."
+
+#: inc/functions/widgets-init.php:116
+msgid "Footer 3 Widgets"
+msgstr "Μικροεφαρμογές 3ου υποσέλιδου"
+
+#: inc/functions/widgets-init.php:108
+msgid "This widget area is the column 2 of the footer of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών είναι η 2η στήλη του υποσέλιδου του ιστοτόπου σας."
+
+#: inc/functions/widgets-init.php:107
+msgid "Footer 2 Widgets"
+msgstr "Μονάδες 2ου Υποσέλιδου"
+
+#: inc/functions/widgets-init.php:99
+msgid "This widget area is the column 1 of the footer of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών είναι η 1η στήλη του υποσέλιδου του ιστοτόπου σας."
+
+#: inc/functions/widgets-init.php:98
+msgid "Footer 1 Widgets"
+msgstr "Μονάδες 1ου Υποσέλιδου"
+
+#: inc/functions/widgets-init.php:90
+msgid "This widget area is located on the top of the footer of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών βρίσκεται στο πάνω μέρος του υποσέλιδου του ιστοτόπου σας."
+
+#: inc/functions/widgets-init.php:89
+msgid "Footer Top Widgets"
+msgstr "Μικροεφαρμογές στο πάνω μέρος του υποσέλιδου"
+
+#: inc/functions/widgets-init.php:81
+msgid "This widget area is located at the bottom of the main content of your website. Widgets of this widget area are displayed on every page of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών βρίσκεται στο κάτω μέρος του κύριου περιεχομένου του ιστοτόπου σας. Οι μικροεφαρμογές σε αυτήν την περιοχή εμφανίζονται σε κάθε ιστοσελίδα του."
+
+#: inc/functions/widgets-init.php:80
+msgid "Bottom Widgets (Everywhere)"
+msgstr "Μικροεφαρμογές στο Κάτω τμήμα (Παντού)"
+
+#: inc/functions/widgets-init.php:63
+msgid "This widget area is located at the top of the main content of your website. Widgets of this widget area are displayed on every page of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών βρίσκεται στην κορυφή του κύριου περιεχομένου του ιστοτόπου σας. Οι μικροεφαρμογές αυτής της περιοχής εμφανίζονται σε κάθε ιστοσελίδα του."
+
+#: inc/functions/widgets-init.php:62
+msgid "Top Widgets (Everywhere)"
+msgstr "Μικροεφαρμογές στο Πάνω τμήμα (Παντού)"
+
+#: inc/functions/widgets-init.php:45
+msgid "This full-width widget area is located after the header of your website. Widgets of this widget area are displayed on every page of your website."
+msgstr "Αυτή η περιοχή μικροεφαρμογών πλήρους πλάτους βρίσκεται μετά την κεφαλίδα του ιστοτόπου σας. Οι μικροεφαρμογές αυτής της περιοχής εμφανίζονται σε κάθε σελίδα του."
+
+#: inc/functions/widgets-init.php:44
+msgid "Top Full Width Widgets (Everywhere)"
+msgstr "Μικροεφαρμογές στο Πάνω τμήμα πλήρους πλάτους (Παντού)"
+
+#: inc/functions/widgets-init.php:27
+msgid "This widget area is located on the right-hand side of your web page."
+msgstr "Αυτή η περιοχή μικροεφαρμογών βρίσκεται στην δεξιά πλευρά του ιστοτόπου σας."
+
+#: inc/functions/widgets-init.php:26
+msgid "Sidebar 2 Widgets"
+msgstr "Μικροεφαρμογές 2ης στήλης"
+
+#: inc/functions/widgets-init.php:18
+msgid "This widget area is located on the left-hand side of your web page."
+msgstr "Αυτή η περιοχή μικροεφαρμογών βρίσκεται στην αριστερή πλευρά του ιστοτόπου σας."
+
+#: inc/functions/widgets-init.php:17
+msgid "Sidebar 1 Widgets"
+msgstr "Μικροεφαρμογές 1ης στήλης"
+
+#: inc/functions/social-buttons.php:141
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: inc/functions/social-buttons.php:141
+msgid "Search Button"
+msgstr "Κουμπί αναζήτησης"
+
+#: inc/functions/social-buttons.php:140
+msgid "Login / Register"
+msgstr "Σύνδεση / Εγγραφή"
+
+#: inc/functions/social-buttons.php:140
+msgid "Login / Register Button"
+msgstr "Κουμπί σύνδεσης / εγγραφής"
+
+#: inc/functions/social-buttons.php:140
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: inc/functions/social-buttons.php:140
+msgid "Logout Button"
+msgstr "Κουμπί Αποσύνδεσης"
+
+#: inc/functions/social-buttons.php:139
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/functions/social-buttons.php:139
+msgid "RSS Button"
+msgstr "Κουμπί RSS"
+
+#: inc/functions/social-buttons.php:137
+msgid "Email Us"
+msgstr "Email Us"
+
+#: inc/functions/social-buttons.php:137
+msgid "Email Us Button"
+msgstr "Κουμπί Email Us"
+
+#: inc/functions/social-buttons.php:135
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/functions/social-buttons.php:135
+msgid "Skype Button"
+msgstr "Κουμπί Skype"
+
+#: inc/functions/social-buttons.php:133
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: inc/functions/social-buttons.php:133
+msgid "Wikipedia Button"
+msgstr "Κουμπί Wikipedia"
+
+#: inc/functions/social-buttons.php:131
+msgid "Viadeo"
+msgstr "Viadeo"
+
+#: inc/functions/social-buttons.php:131
+msgid "Viadeo Button"
+msgstr "Κουμπί Viadeo"
+
+#: inc/functions/social-buttons.php:129
+msgid "PayPal"
+msgstr "PayPal"
+
+#: inc/functions/social-buttons.php:129
+msgid "PayPal Button"
+msgstr "Κουμπί PayPal"
+
+#: inc/functions/social-buttons.php:127
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: inc/functions/social-buttons.php:127
+msgid "Dropbox Button"
+msgstr "Κουμπί Dropbox"
+
+#: inc/functions/social-buttons.php:125
+msgid "SlideShare"
+msgstr "SlideShare"
+
+#: inc/functions/social-buttons.php:125
+msgid "SlideShare Button"
+msgstr "Κουμπί SlideShare"
+
+#: inc/functions/social-buttons.php:123
+msgid "Google Play"
+msgstr "Google Play"
+
+#: inc/functions/social-buttons.php:123
+msgid "Google Play Button"
+msgstr "Κουμπί Google Play"
+
+#: inc/functions/social-buttons.php:121
+msgid "XING"
+msgstr "XING"
+
+#: inc/functions/social-buttons.php:121
+msgid "XING Button"
+msgstr "Κουμπί XING"
+
+#: inc/functions/social-buttons.php:119
+msgid "Pocket"
+msgstr "Pocket"
+
+#: inc/functions/social-buttons.php:119
+msgid "Pocket Button"
+msgstr "Κουμπί Pocket"
+
+#: inc/functions/social-buttons.php:117
+msgid "Houzz"
+msgstr "Houzz"
+
+#: inc/functions/social-buttons.php:117
+msgid "Houzz Button"
+msgstr "Houzz Button"
+
+#: inc/functions/social-buttons.php:115
+msgid "Odnoklassniki"
+msgstr "Odnoklassniki"
+
+#: inc/functions/social-buttons.php:115
+msgid "Odnoklassniki Button"
+msgstr "Κουμπί Odnoklassniki"
+
+#: inc/functions/social-buttons.php:113
+msgid "Goodreads"
+msgstr "Goodreads"
+
+#: inc/functions/social-buttons.php:113
+msgid "Goodreads Button"
+msgstr "Κουμπί Goodreads"
+
+#: inc/functions/social-buttons.php:111
+msgid "Ello"
+msgstr "Ello"
+
+#: inc/functions/social-buttons.php:111
+msgid "Ello Button"
+msgstr "Κουμπί Ello"
+
+#: inc/functions/social-buttons.php:109
+msgid "500px"
+msgstr "500px"
+
+#: inc/functions/social-buttons.php:109
+msgid "500px Button"
+msgstr "Κουμπί 500px"
+
+#: inc/functions/social-buttons.php:107
+msgid "BuySellAds"
+msgstr "BuySellAds"
+
+#: inc/functions/social-buttons.php:107
+msgid "BuySellAds Button"
+msgstr "Κουμπί BuySellAds"
+
+#: inc/functions/social-buttons.php:105
+msgid "Stack Exchange"
+msgstr "Stack Exchange"
+
+#: inc/functions/social-buttons.php:105
+msgid "Stack Exchange Button"
+msgstr "Κουμπί Stack Exchange"
+
+#: inc/functions/social-buttons.php:103
+msgid "Stack Overflow"
+msgstr "Stack Overflow"
+
+#: inc/functions/social-buttons.php:103
+msgid "Stack Overflow Button"
+msgstr "Κουμπί Stack Overflow"
+
+#: inc/functions/social-buttons.php:101
+msgid "JSFiddle"
+msgstr "JSFiddle"
+
+#: inc/functions/social-buttons.php:101
+msgid "JSFiddle Button"
+msgstr "Κουμπί JSFidle"
+
+#: inc/functions/social-buttons.php:99
+msgid "Codepen"
+msgstr "Codepen"
+
+#: inc/functions/social-buttons.php:99
+msgid "Codepen Button"
+msgstr "Κουμπί Codepen"
+
+#: inc/functions/social-buttons.php:97
+msgid "VK"
+msgstr "VK"
+
+#: inc/functions/social-buttons.php:97
+msgid "VK Button"
+msgstr "VK Button"
+
+#: inc/functions/social-buttons.php:95
+msgid "IMDB"
+msgstr "IMDB"
+
+#: inc/functions/social-buttons.php:95
+msgid "IMDB Button"
+msgstr "Κουμπί IMDB"
+
+#: inc/functions/social-buttons.php:93
+msgid "DeviantArt"
+msgstr "DeviantArt"
+
+#: inc/functions/social-buttons.php:93
+msgid "DeviantArt Button"
+msgstr "Κουμπί DeviantArt"
+
+#: inc/functions/social-buttons.php:91
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: inc/functions/social-buttons.php:91
+msgid "Foursquare Button"
+msgstr "Κουμπί Foursquare"
+
+#: inc/functions/social-buttons.php:89
+msgid "Quora"
+msgstr "Quora"
+
+#: inc/functions/social-buttons.php:89
+msgid "Quora Button"
+msgstr "Κουμπί Quora"
+
+#: inc/functions/social-buttons.php:87
+msgid "Bandcamp"
+msgstr "Bandcamp"
+
+#: inc/functions/social-buttons.php:87
+msgid "Bandcamp Button"
+msgstr "Κουμπί Bandcamp"
+
+#: inc/functions/social-buttons.php:85
+msgid "Telegram"
+msgstr "Telegram"
+
+#: inc/functions/social-buttons.php:85
+msgid "Telegram Button"
+msgstr "Κουμπί Telegram"
+
+#: inc/functions/social-buttons.php:83
+msgid "Twitch"
+msgstr "Twitch"
+
+#: inc/functions/social-buttons.php:83
+msgid "Twitch Button"
+msgstr "Κουμπί Twitch"
+
+#: inc/functions/social-buttons.php:81
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/functions/social-buttons.php:81
+msgid "WordPress Button"
+msgstr "Κουμπί WordPress"
+
+#: inc/functions/social-buttons.php:79
+msgid "Yelp"
+msgstr "Yelp"
+
+#: inc/functions/social-buttons.php:79
+msgid "Yelp Button"
+msgstr "Κουμπί Yelp"
+
+#: inc/functions/social-buttons.php:77
+msgid "Spotify"
+msgstr "Spotify"
+
+#: inc/functions/social-buttons.php:77
+msgid "Spotify Button"
+msgstr "Κουμπί Spotify"
+
+#: inc/functions/social-buttons.php:75
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: inc/functions/social-buttons.php:75
+msgid "Snapchat Button"
+msgstr "Κουμπί Snapchat"
+
+#: inc/functions/social-buttons.php:73
+msgid "Slack"
+msgstr "Slack"
+
+#: inc/functions/social-buttons.php:73
+msgid "Slack Button"
+msgstr "Κουμπί Slack"
+
+#: inc/functions/social-buttons.php:71
+msgid "Mixcloud"
+msgstr "Mixcloud"
+
+#: inc/functions/social-buttons.php:71
+msgid "Mixcloud Button"
+msgstr "Κουμπί Mixcloud"
+
+#: inc/functions/social-buttons.php:69
+msgid "Meetup"
+msgstr "Meetup"
+
+#: inc/functions/social-buttons.php:69
+msgid "Meetup Button"
+msgstr "Κουμπί Meetup"
+
+#: inc/functions/social-buttons.php:67
+msgid "Amazon"
+msgstr "Amazon"
+
+#: inc/functions/social-buttons.php:67
+msgid "Amazon Button"
+msgstr "Κουμπί Amazon"
+
+#: inc/functions/social-buttons.php:65
+msgid "Behance"
+msgstr "Behance"
+
+#: inc/functions/social-buttons.php:65
+msgid "Behance Button"
+msgstr "Κουμπί Behance"
+
+#: inc/functions/social-buttons.php:63
+msgid "Etsy"
+msgstr "Etsy"
+
+#: inc/functions/social-buttons.php:63
+msgid "Etsy Button"
+msgstr "Κουμπί Etsy"
+
+#: inc/functions/social-buttons.php:61
+msgid "Blogger"
+msgstr "Blogger"
+
+#: inc/functions/social-buttons.php:61
+msgid "Blogger Button"
+msgstr "Κουμπί Blogger"
+
+#: inc/functions/social-buttons.php:59
+msgid "Flipboard"
+msgstr "Flipboard"
+
+#: inc/functions/social-buttons.php:59
+msgid "Flipboard Button"
+msgstr "Κουμπί Flipboard"
+
+#: inc/functions/social-buttons.php:57
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/functions/social-buttons.php:57
+msgid "Dribbble Button"
+msgstr "Κουμπί Dribble"
+
+#: inc/functions/social-buttons.php:55
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/functions/social-buttons.php:55
+msgid "Reddit Button"
+msgstr "Κουμπί Reddit"
+
+#: inc/functions/social-buttons.php:53
+msgid "Mix"
+msgstr "Mix"
+
+#: inc/functions/social-buttons.php:53
+msgid "Mix Button"
+msgstr "Κουμπί Mix"
+
+#: inc/functions/social-buttons.php:51
+msgid "Stumbleupon"
+msgstr "Stumbleupon"
+
+#: inc/functions/social-buttons.php:51
+msgid "Stumbleupon Button"
+msgstr "Κουμπί Stumbleupon"
+
+#: inc/functions/social-buttons.php:49
+msgid "Delicious"
+msgstr "Delicious"
+
+#: inc/functions/social-buttons.php:49
+msgid "Delicious Button"
+msgstr "Κουμπί Delicious"
+
+#: inc/functions/social-buttons.php:47
+msgid "Digg"
+msgstr "Digg"
+
+#: inc/functions/social-buttons.php:47
+msgid "Digg Button"
+msgstr "Κουμπί Digg"
+
+#: inc/functions/social-buttons.php:45
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/functions/social-buttons.php:45
+msgid "Tumblr Button"
+msgstr "Κουμπί Tumblr"
+
+#: inc/functions/social-buttons.php:43
+msgid "Bitbucket"
+msgstr "Bitbucket"
+
+#: inc/functions/social-buttons.php:43
+msgid "Bitbucket Button"
+msgstr "Κουμπί Bitbucket"
+
+#: inc/functions/social-buttons.php:41
+msgid "Github"
+msgstr "GitHub"
+
+#: inc/functions/social-buttons.php:41
+msgid "Github Button"
+msgstr "Κουμπί Github"
+
+#: inc/functions/social-buttons.php:39
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/functions/social-buttons.php:39
+msgid "Medium Button"
+msgstr "Κουμπί Medium"
+
+#: inc/functions/social-buttons.php:37
+msgid "Lastfm"
+msgstr "Lastfm"
+
+#: inc/functions/social-buttons.php:37
+msgid "Lastfm Button"
+msgstr "Κουμπί Lastfm"
+
+#: inc/functions/social-buttons.php:35
+msgid "Messenger"
+msgstr "Μηνύματα"
+
+#: inc/functions/social-buttons.php:35
+msgid "Messenger Button"
+msgstr "Κουμπί Messenger"
+
+#: inc/functions/social-buttons.php:33
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: inc/functions/social-buttons.php:33
+msgid "SoundCloud Button"
+msgstr "Κουμπί SoundCloud"
+
+#: inc/functions/social-buttons.php:31
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/functions/social-buttons.php:31
+msgid "Vimeo Button"
+msgstr "Κουμπί Vimeo"
+
+#: inc/functions/social-buttons.php:29
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/functions/social-buttons.php:29
+msgid "Youtube Button"
+msgstr "Κουμπί Youtube"
+
+#: inc/functions/social-buttons.php:27
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/functions/social-buttons.php:27
+msgid "Flickr Button"
+msgstr "Κουμπί Flickr"
+
+#: inc/functions/social-buttons.php:25
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/functions/social-buttons.php:25
+msgid "Instagram Button"
+msgstr "Κουμπί Instagram"
+
+#: inc/functions/social-buttons.php:23
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/functions/social-buttons.php:23
+msgid "Linkedin Button"
+msgstr "Κουμπί Linkedin"
+
+#: inc/functions/social-buttons.php:21
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/functions/social-buttons.php:21
+msgid "Pinterest Button"
+msgstr "Κουμπί Pinterest"
+
+#: inc/functions/social-buttons.php:19
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/functions/social-buttons.php:19
+msgid "Google Plus Button"
+msgstr "Κουμπί Google Plus"
+
+#: inc/functions/social-buttons.php:17
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/functions/social-buttons.php:17
+msgid "Facebook Button"
+msgstr "Κουμπί Facebook"
+
+#: inc/functions/social-buttons.php:15
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/functions/social-buttons.php:15
+msgid "Twitter Button"
+msgstr "Κουμπί Twitter"
+
+#: inc/functions/posts-navigation.php:43
+msgid "&larr; %title"
+msgstr "&larr; %title"
+
+#: inc/functions/posts-navigation.php:43
+msgid "%title &rarr;"
+msgstr "%title &rarr;"
+
+#: inc/functions/posts-navigation.php:31
+msgid "Older posts &rarr;"
+msgstr "Παλιότερα άρθρα &rarr;"
+
+#: inc/functions/posts-navigation.php:31
+msgid "&larr; Newer posts"
+msgstr "&raquo; Νεότερα άρθρα"
+
+#: inc/functions/posts-navigation.php:29
+msgid "Newer posts"
+msgstr "Νεότερα άρθρα"
+
+#: inc/functions/posts-navigation.php:29
+msgid "Older posts"
+msgstr "Παλαιότερα άρθρα"
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Αναζήτηση &hellip;"
+
+#: searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr "Αναζήτηση για:"
+
+#. translators: %1$s: smiley
+#: 404.php:65
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Δοκιμάστε να αναζητήσετε τα μηνιαία αρχεία. %1$s"
+
+#: 404.php:49
+msgid "Most Used Categories"
+msgstr "Κοινότερες κατηγορίες"
+
+#: 404.php:41 inc/admin/options/search-404-options.php:27
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Δε βρέθηκε κάτι σε αυτή την τοποθεσία. Ίσως να δοκιμάζατε κάποιον από τους παρακάτω συνδέσμους ή να κάνατε μία αναζήτηση;"
+
+#: 404.php:30 inc/admin/options/search-404-options.php:23
+msgid "Oops! That page can not be found."
+msgstr "Ωπα! Αυτή η σελίδα δε βρέθηκε."
+
+#. translators: %s: search query.
+#: search.php:26
+msgid "Search Results for: %s"
+msgstr "Αποτελέσματα αναζήτησης για : %s"
+
+#. Template Name of the theme
+msgid "Full Width, no sidebar"
+msgstr "Μέγιστο πλάτος χωρίς πλευρική στήλη"
+
+#: footer.php:92
+msgid "Scroll to Top"
+msgstr "Επιστροφή στην κορυφή"
+
+#. translators: %s: Theme author.
+#: footer.php:84
+msgid "Design by %s"
+msgstr "Σχεδίαση από %s"
+
+#. translators: %s: Year and site name.
+#: footer.php:82
+msgid "Y"
+msgstr "Y"
+
+#. translators: %s: Year and site name.
+#: footer.php:82
+msgid "Copyright &copy; %s"
+msgstr "Copyright &copy; %s"
+
+#: functions.php:87 inc/functions/menu-functions.php:55
+msgid "Secondary Menu"
+msgstr "Δευτερεύον μενού"
+
+#: index.php:33 inc/admin/options/posts-grid-options.php:19
+msgid "Recent Posts"
+msgstr "Τελευταία άρθρα"
+
+#: header.php:90
+msgid "Close Search"
+msgstr "Κλείσιμο αναζήτησης"
+
+#: header.php:59 inc/functions/menu-functions.php:56
+msgid "Menu"
+msgstr "Μενού"
+
+#: header.php:58 functions.php:86
+msgid "Primary Menu"
+msgstr "Αρχικό μενού"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Μετάβαση στο περιεχόμενο"
+
+#. Author URI of the theme
+msgid "https://themesdna.com/"
+msgstr "https://themesdna.com/"
+
+#. Author of the theme
+msgid "ThemesDNA"
+msgstr "ThemesDNA"
+
+#. Theme URI of the theme
+msgid "https://themesdna.com/gridview-wordpress-theme/"
+msgstr "https://themesdna.com/gridview-wordpress-theme/"

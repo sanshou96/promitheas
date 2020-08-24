@@ -1,0 +1,90 @@
+/** Excerpt columns
+------------------------ */
+.site-content article.gt-excerpt {
+	padding-left: 14px;
+	padding-right: 14px;
+	padding: 14px;
+	border: 1px solid #ddd;
+}
+article.gt-excerpt.has-post-thumbnail.gt-excerpt-thumbnail-round {
+	padding-top: 14px;
+}
+article.has-post-thumbnail .wrapper-excerpt-content {
+	margin-top: 14px;
+}
+.excerpt-wrapper {
+	padding: 0;
+	margin-bottom: 0;
+	border: none;
+	overflow: inherit;
+}
+.excerpt-wrapper .entry-header {
+	margin-left: -14px;
+	padding-left: 14px;
+	margin-right: -14px;
+	padding-right: 14px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 14px;
+}
+.excerpt-wrapper .entry-info {
+	margin-top: 7px;
+}
+.wrapper-excerpt-content {
+	padding: 0;
+	color: #888;
+}
+.read-more-link {
+	margin-bottom: 14px;
+}
+
+@media screen and (min-width: 640px) { /* Overider default CSS */
+	article.has-post-thumbnail .wrapper-excerpt-thumbnail,
+	article.has-post-thumbnail .wrapper-excerpt-content {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) { /* Grid layout */
+	body.archive article.gt-excerpt,
+	body.home article.gt-excerpt,
+	body.blog article.gt-excerpt {
+		box-sizing: border-box;
+		width: 48.5%;
+		margin-bottom: 35px !important;
+	}
+	body.archive article.gt-excerpt:nth-of-type(odd),
+	body.home article.gt-excerpt:nth-of-type(odd),
+	body.blog article.gt-excerpt:nth-of-type(odd) {
+		float: left;
+		clear: both;
+	}
+	body.archive article.gt-excerpt:nth-of-type(even),
+	body.home article.gt-excerpt:nth-of-type(even),
+	body.blog article.gt-excerpt:nth-of-type(even) {
+		float: right;
+	}
+
+	body.archive article.gt-excerpt.forum {
+		float: none;
+		width: inherit;
+		margin: inherit;
+	}
+}
+
+/* Thumbnails */
+article.has-post-thumbnail .wrapper-excerpt-thumbnail {
+	width: calc(100% + 28px);
+	margin-left: -14px;
+}
+article.has-post-thumbnail.gt-excerpt {
+	padding-top: 0;
+}
+.wrapper-excerpt-content {
+	padding: 0;
+}
+body.gt-excerpt-two-columns article.gt-excerpt-thumbnail-round .wrapper-excerpt-thumbnail img {
+	max-width: 85%;
+	margin: 0 auto;
+}
+/** End Grid layout (excerpts) */

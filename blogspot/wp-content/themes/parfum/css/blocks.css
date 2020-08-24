@@ -1,0 +1,445 @@
+/*
+Theme Name: Parfum
+Description: Used to style Gutenberg Blocks.
+*/
+
+*[class^="wp-block-"] {
+	margin-bottom: 28px;
+	margin-bottom: 2.8rem;
+}
+body.gt-gutenberg-page-builder [class^="wp-block-"] {
+	margin-bottom: 0;
+}
+p.has-text-color a {
+	text-decoration: underline;
+}
+p.has-drop-cap {
+	overflow: hidden;
+}
+.wp-block-spacer {
+    clear: both;
+    margin: 0;
+}
+.entry-content > *.alignfull,
+.entry-summary > *.alignfull,
+.entry-content > *.alignfull-no-margin-bottom,
+.entry-summary > *.alignfull-no-margin-bottom {
+	margin-right: -14px;
+	padding-right: 14px;
+	margin-left: -14px;
+	padding-left: 14px;
+}
+.entry-content > *.alignfull-no-margin-bottom,
+.entry-summary > *.alignfull-no-margin-bottom { /* Use alignfull-no-margin-bottom */
+	margin-bottom: 0;
+}
+
+/* =================== Custom color palette =================== */
+
+.has-light-gray-color,
+a.has-light-gray-color,
+a.has-light-gray-color:hover /* Buttons */ {
+	color: #f2f2f2;
+}
+.has-medium-gray-color,
+a.has-medium-gray-color,
+a.has-medium-gray-color:hover {
+	color: #999;
+}
+.has-dark-gray-color,
+a.has-dark-gray-color,
+a.has-dark-gray-color:hover {
+	color: #333;
+}
+.has-white-color,
+a.has-white-color,
+a.has-white-color:hover {
+	color: #fff;
+}
+.has-light-gray-background-color {
+	background-color: #f2f2f2;
+}
+.has-medium-gray-background-color {
+	background-color: #999;
+}
+.has-dark-gray-background-color {
+	background-color: #333;
+}
+.has-white-background-color {
+	background-color: #fff;
+}
+/* End Custom color palette */
+
+/* ============= Editor font sizes =============== */
+
+.has-small-font-size {
+    font-size: 14px;
+}
+.has-normal-font-size {
+    font-size: 16px;
+}
+.has-medium-font-size {
+	font-size: 20px;
+}
+.has-large-font-size {
+    font-size: 28px;
+}
+.has-huge-font-size {
+    font-size: 36px;
+}
+p.has-large-font-size,
+p.has-huge-font-size {
+	line-height: 1.5;
+}
+
+/* ============= Blockquotes and Pullquotes =============== */
+
+.wp-block-quote,
+.wp-block-quote.is-style-large {
+	background:rgba(128, 128, 128, 0.1);
+	border-width: 0;
+	border-left: 4px solid rgba(128, 128, 128, 0.4) !important;
+	width: 90%;
+	margin:	28px auto;
+	overflow: auto;
+	padding: 14px 28px;
+}
+
+.wp-block-quote p {
+	font-style:	italic;
+	font-size: 1em;
+	margin: 0;
+}
+.wp-block-quote cite {
+	border-width: 0;
+	color: inherit;
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 3em;
+	margin-top: .5em;
+}
+
+.wp-block-pullquote {
+	padding: 2em 0;
+}
+.wp-block-pullquote.is-style-solid-color {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 2em 0;
+	text-align: center;
+}
+.entry-content .wp-block-pullquote .wp-block-quote,
+.entry-content .wp-block-pullquote blockquote,
+.entry-content .wp-block-pullquote .wp-block-quote.is-style-large {
+	background: none;
+	border:0;
+	margin:0 auto;
+	padding: 0;
+}
+
+.wp-block-pullquote p,
+.wp-block-pullquote.is-style-solid-color blockquote p {
+	font-size: 22px;
+}
+
+/* ============== Images =================== */
+
+/* image alignwide */
+.wp-block-image.alignwide {
+	width: 100%;
+}
+.wp-block-image.alignwide img {
+	width: 100%;
+}
+
+/* image alingfull */
+.wp-block-image.alignfull,
+.wp-block-embed.alignfull {
+	max-width: inherit; /* Gutenberg lo tiene establecido en 100% */
+	margin-left: -28px;
+	padding-left: 14px;
+	margin-right: -28px;
+	padding-right: 14px;
+}
+
+/* Cover image */
+.wp-block-cover-image {	/* make cover images display more responsively */
+	background-position: center center;
+}
+.wp-block-cover.alignfull {
+	max-width: inherit;
+	margin-left: -14px;
+	padding-left: 14px;
+	margin-right: -14px;
+	padding-right: 14px;
+}
+
+.wp-block-embed.alignwide iframe,
+.wp-block-embed.alignfull iframe {
+	width: 100%;
+}
+
+/* =================== Buttons =================== */
+
+.wp-block-button {
+	line-height: 1.25;
+	text-align: center;
+}
+.wp-block-button.alignleft {
+	margin-right: 14px;
+}
+.wp-block-button.alignright {
+	margin-left: 14px;
+}
+.wp-block-button__link:hover{
+	opacity: .8;
+}
+.wp-block-button {
+	font-weight: bold;
+}
+
+/* Media & Text */
+.wp-block-media-text {
+	margin-bottom: 1.75em;
+}
+.wp-block-media-text *:last-child {
+	margin-bottom: 0;
+}
+.wp-block-media-text.alignfull > figure > img,
+.wp-block-media-text.has-media-on-the-right.alignfull > figure > img  {
+	width: calc(100% + 14px);
+}
+.wp-block-media-text.alignfull > figure > img {
+	margin-left: -14px;
+}
+.wp-block-media-text.has-media-on-the-right.alignfull > figure > img {
+	width: calc(100% + 14px);
+	margin-left: 0;
+    margin-right: -14px;
+}
+@media screen and (max-width: 600px) { /* .is-stacked-on-mobile */
+	.wp-block-media-text.alignfull.is-stacked-on-mobile > figure > img,
+	.wp-block-media-text.has-media-on-the-right.alignfull.is-stacked-on-mobile > figure > img  {
+		width: calc(100% + 28px);
+	}
+	.wp-block-media-text.alignfull.is-stacked-on-mobile > figure > img,
+	.wp-block-media-text.has-media-on-the-right.alignfull.is-stacked-on-mobile > figure > img  {
+		margin-left: -14px;
+		margin-right: -14px;
+	}
+}
+
+@media screen and (min-width: 960px){
+	.wp-block-media-text.alignfull > figure > img,
+	.wp-block-media-text.has-media-on-the-right.alignfull > figure > img  {
+		width: calc(100% + 28px);
+	}
+	.wp-block-media-text.alignfull > figure > img {
+		margin-left: -28px;
+	}
+	.wp-block-media-text.has-media-on-the-right.alignfull > figure > img {
+		width: calc(100% + 28px);
+		margin-left: 0;
+		margin-right: -28px;
+	}
+}
+/* End Media & Text */
+
+
+/* =============== Miscellaneous ================ */
+
+ul.wp-block-latest-posts {
+    line-height: 1.7;
+}
+
+/* ===================== Queries ==================== */
+
+@media screen and (min-width: 960px) {
+
+	.entry-content > *.alignfull,
+	.entry-summary > *.alignfull,
+	.entry-content > *.alignfull-no-margin-bottom,
+	.entry-summary > *.alignfull-no-margin-bottom {
+		margin-right: -28px;
+		padding-right: 28px;
+		margin-left: -28px;
+		padding-left: 28px;
+	}
+
+	/* image alingfull */
+	.wp-block-image.alignfull,
+	.wp-block-embed.alignfull {
+		max-width: inherit;
+		margin-left: -56px;
+		padding-left: 28px;
+		margin-right: -56px;
+		padding-right: 28px;
+	}
+	.wp-block-embed.alignfull iframe {
+		width: 100%;
+	}
+	/* Cover image */
+	.wp-block-cover.alignfull {
+		max-width: inherit;
+		margin-left: -28px;
+		padding-left: 28px;
+		margin-right: -28px;
+		padding-right: 28px;
+	}
+	.wp-block-media-text.alignfull {
+		margin-left: -28px;
+		padding-left: 28px;
+		margin-right: -28px;
+		padding-right: 28px;
+	}
+	
+}
+
+/** ================== Gutenberg page builder ================ **/
+
+body.gt-gutenberg-page-builder .site{
+	overflow: hidden; /* hide scrollbar */
+}
+
+body.gt-gutenberg-page-builder #main {
+	margin: 0;
+	background-color: #fff;
+}
+
+body.gt-gutenberg-page-builder #main .inner-wrap {
+	max-width: 100%;
+}
+
+body.gt-gutenberg-page-builder #main .content-sidebar-inner-wrap {
+	padding: 0;
+	margin: 0;
+}
+
+body.gt-gutenberg-page-builder #primary {
+	padding: 0;
+	width: 100%;
+}
+
+body.gt-gutenberg-page-builder .header-image-wrapper,
+body.gt-gutenberg-page-builder .breadcrumbs-trail-wrapper {
+	display:none;
+}
+
+body.gt-gutenberg-page-builder .gutenberg-page-builder-inner-wrap {
+	box-sizing: border-box;
+	max-width: 1240px;
+	padding: 0 28px;
+	margin: 0 auto;
+}
+
+body.gt-gutenberg-page-builder .alignfull {
+	margin-left: -28px;
+	margin-right: -28px;
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+body.gt-gutenberg-page-builder .wp-block-embed.alignfull {
+	margin-left: -56px;
+	margin-right: -56px;
+	padding-left: 28px;
+	padding-right: 28px;
+}
+body.gt-gutenberg-page-builder .entry-content h1,
+body.gt-gutenberg-page-builder .entry-content h2,
+body.gt-gutenberg-page-builder .entry-content h3 {
+	font-weight: normal;
+	letter-spacing: 4px;
+	line-height: 1;
+	padding: 7px 0;
+	margin: 14px 0;
+}
+body.gt-gutenberg-page-builder .entry-content h1 {
+	font-size: 42px;
+	font-size:4.2rem
+}
+body.gt-gutenberg-page-builder .entry-content h2 {
+	font-size:38px;
+	font-size:3.8rem;
+}
+body.gt-gutenberg-page-builder .entry-content h3 {
+	font-size:30px;
+	font-size:3rem;
+}
+
+body.gt-gutenberg-page-builder p { /* Independent paragraphs. */
+	margin-bottom: 28px;
+}
+body.gt-gutenberg-page-builder [class^="wp-block-"] p { /* Paragraphs inside blocks. */
+	line-height: 1.6;
+	margin: 14px 0;
+}
+
+@media screen and (min-width: 1240px) {
+	
+	/* ================== Gutenberg Page Builder Template ====================== */
+
+	body.gt-gutenberg-page-builder .gutenberg-page-builder-inner-wrap {
+		max-width: 1184px;
+		padding: 0;
+	}
+
+	body.gt-gutenberg-page-builder .alignfull {
+		margin-left: calc( (100vw - 100%) / -2 );
+		margin-right: calc( (100vw - 100%) / -2 );
+		padding-left: calc( (100vw - 100%) / 2 );
+		padding-right: calc( (100vw - 100%) / 2 );
+
+	}
+
+	body.gt-gutenberg-page-builder .wp-block-embed.alignfull {
+		margin-left: calc( (100vw - 100%) / -1 );
+		margin-right: calc( (100vw - 100%) / -1 );
+		padding-left: calc( (100vw - 100%) / 2 );
+		padding-right: calc( (100vw - 100%) / 2 );
+	}
+
+}
+
+/* ====================== For use in Aditional CSS Class ================ */
+
+/* Blocks no margin botton */
+[class^="wp-block-"].block-no-margin-bottom,
+.no-margin-bottom { /* Use block-no-margin-bottom */
+	margin-bottom: 0 !important;
+}
+
+.b-radius-3 {
+	border-radius: 3px;
+}
+.b-radius-27 {
+	border-radius: 27px;
+}
+/* Cover */
+.wp-block-cover.cover-250 {
+	min-height: 250px;
+}
+.wp-block-cover.cover-300 {
+	min-height: 300px;
+}
+
+/* Icons */
+.email-icon:before,
+.address-icon:before,
+.phone-icon:before {
+    font-family: 'Dashicons';
+    content: "\f465";
+    font-size: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.email-icon:before {
+    content: "\f465";
+}
+.phone-icon:before {
+    content: "\f525";
+}
+.address-icon:before {
+    content: "\f231";
+}

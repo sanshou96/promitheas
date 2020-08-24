@@ -1,0 +1,56 @@
+input.tabs {
+  display: none; }
+
+.tab_content {
+  display: none;
+  padding: 10px;
+  background: #e2e2e2;
+  border-radius: 0 4px 4px 4px; }
+
+label.tab_item {
+  border-bottom: 2px solid #ccc;
+  border-right: 3px solid #ccc;
+  background: #ddd;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.6s ease;
+  padding: 5px 10px;
+  margin: 0 -5px 0 0;
+  cursor: pointer; }
+
+label.tab_item:first-of-type {
+  border-radius: 2px 0 0 0; }
+
+label.tab_item:last-of-type {
+  border-radius: 0 2px 0 0; }
+
+input.tabs:checked + .tab_item {
+  background: #069;
+  color: #fff;
+  border-bottom: 2px solid  #00a0d2; }
+
+#ya_pv:checked ~ form #ya_pv_content,
+#ya_toc:checked ~ form #ya_toc_content,
+#ya_widget:checked ~ form #ya_widget_content,
+#ya_ga:checked ~ form #ya_ga_content,
+#ya_amp:checked ~ form #ya_amp_content,
+#ya_pwa:checked ~ form #ya_pwa_content,
+#ya_sns:checked ~ form #ya_sns_content,
+#ya_google_ad:checked ~ form #ya_google_ad_content,
+#ya_profile:checked ~ form #ya_profile_content,
+#ya_seo:checked ~ form #ya_seo_content,
+#ya_sitemap:checked ~ form #ya_sitemap_content,
+#ya_blogcard:checked ~ form #ya_blogcard_content,
+#ya_cta_social:checked ~ form #ya_cta_social_content,
+#ya_share:checked ~ form #ya_share_content,
+#ya_javascript:checked ~ form #ya_javascript_content,
+#ya_related_posts:checked ~ form #ya_related_posts_content,
+#ya_other:checked ~ form #ya_other_content,
+#ya_robot:checked ~ form #ya_robot_content,
+#ya_notice:checked ~ form #ya_notice_content,
+#ya_faster:checked ~ form #ya_faster_content {
+  display: block; }
+
+
